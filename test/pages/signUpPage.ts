@@ -39,7 +39,7 @@ public set subscribeMarketing(value: boolean) {
 }
 
   
-  public get emailInput() { return $('#email');}
+  public get emailInput() { return $('.c-gQHCxf input[name="email"]');}
   public get firstNameInput() { return $('#first_name'); }
   public get lastNameInput() { return $('#last_name'); }
   public get passwordInput() { return $('#password'); }

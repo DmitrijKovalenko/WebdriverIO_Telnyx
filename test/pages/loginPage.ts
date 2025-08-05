@@ -39,8 +39,7 @@ public async enterPasswordInput(): Promise<void> {
   await this.passwordInput.setValue(this._password);
 }
   
-
-      
+   
   
 public async fillLoginForm(): Promise<void> {
   await this.emailInput.waitForDisplayed({ timeout: 5000 });
@@ -64,14 +63,14 @@ public async fillLoginForm(): Promise<void> {
     return $('.frontend-customer-portal-1ptee0p');
   }
 
- 
-
   public get emailMSGError() {
     return $('.MuiFormHelperText-root.Mui-error');
   }
   public get invalidData() {
     return $('.MuiAlert-message.frontend-customer-portal-1xsto0d');
   }
+
+  
   public get passwordMSGError() {
     return $('.MuiFormHelperText-root.Mui-error');
   }
@@ -93,18 +92,15 @@ public async fillLoginForm(): Promise<void> {
   }
 
   public get setUpLater() {
-    return $('.MuiBox-root.frontend-customer-portal-1ektdzq .frontend-customer-portal-1rghx5t');
+    return $('.MuiBox-root.frontend-customer-portal-1ektdzq [role="button"]');
   }
+  //.MuiBox-root.frontend-customer-portal-1ektdzq .frontend-customer-portal-1rghx5t
 
   public async clickSetUpLater() { 
     await this.setUpLater.waitForDisplayed({ timeout: 15000 });  
     await this.setUpLater.waitForClickable({ timeout: 15000 });   
     await this.setUpLater.click();
-  }
-
-  
-    
-     
+  }   
 }
 
 export const loginPage: LoginPage = new LoginPage();

@@ -4,7 +4,7 @@ import { loginPage }  from '../pages/loginPage';
 class MainPage{
 
     public get logInButtonHref(): ChainablePromiseElement {
-    return $('.c-ihSZrZ a[href="https://portal.telnyx.com"]');
+    return $('.c-fuRoiU .c-ihSZrZ a[href="https://portal.telnyx.com"]');
     }
     
     public async login(): Promise<void> {
