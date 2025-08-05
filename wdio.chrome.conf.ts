@@ -1,7 +1,8 @@
-import { config } from './wdio.conf.ts';
 
-export const chromeConfig = {
-  ...config,
+import { config as baseConfig } from './wdio.conf.ts';
+
+export const config = {
+  ...baseConfig,
   capabilities: [{
     maxInstances: 5,
     browserName: 'chrome',

@@ -1,7 +1,7 @@
-import { config } from './wdio.conf.ts';
+import { config as baseConfig } from './wdio.conf.ts';
 
-export const firefoxConfig = {
-  ...config,
+export const config = {
+  ...baseConfig,
   capabilities: [{
     maxInstances: 5,
     browserName: 'firefox',
