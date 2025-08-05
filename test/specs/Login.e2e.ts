@@ -16,8 +16,10 @@ import * as userData from '../data/user.json';
 
   it('should log in using valid credentials', async () => {
     await mainPage.clickAndNavigateToLogin();
+    await loginPage.emailInput.waitForDisplayed({ timeout: 15000 }); //а вдруг поможет
     loginPage.email = userData.validUser.email;
     loginPage.password = userData.validUser.password;
+    await loginPage.emailInput.waitForDisplayed({ timeout: 15000 }); //а вдруг поможет
     await loginPage.fillLoginForm();
     await browser.waitUntil(async () => await loginPage.loginButton.isClickable(),{
     timeout: 15000,

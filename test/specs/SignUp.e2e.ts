@@ -31,11 +31,13 @@ describe('SignUp tests', () => {
         await acceptCookieBannerIfVisible();
         await signPage.waitForHeader();
         await expect(signPage.createTelnyxAccount).toHaveText('Create a Telnyx account');
-        await acceptCookieBannerIfVisible();
+      await acceptCookieBannerIfVisible();
+       await signUpPage.emailInput.waitForDisplayed({ timeout: 15000 });
         signUpPage.email = newUsers.invalidEmails.empty;
         signUpPage.firstName = newUsers.invalidFirstNames.empty;
         signUpPage.lastName = newUsers.invalidLastNames.empty;
         signUpPage.password = newUsers.invalidPasswords.empty;
+       
         await signUpPage.fillForm();
         await signUpPage.clickSignUpButton();
         await expect(signUpPage.termsAndConditions).toHaveText('Please accept the terms and conditions');
@@ -48,7 +50,8 @@ describe('SignUp tests', () => {
         await acceptCookieBannerIfVisible();
         await signPage.waitForHeader();
         await expect(signPage.createTelnyxAccount).toHaveText('Create a Telnyx account');
-        await acceptCookieBannerIfVisible();
+      await acceptCookieBannerIfVisible();
+       await signUpPage.emailInput.waitForDisplayed({ timeout: 15000 });
         signUpPage.email = newUsers.invalidEmails.empty;
         signUpPage.firstName = newUsers.validUser.firstName;
         signUpPage.lastName = newUsers.validUser.lastName;
