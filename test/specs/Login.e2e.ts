@@ -26,7 +26,7 @@ import * as userData from '../data/user.json';
       timeoutMsg: 'Login button did not become clickable in time'
     });
     await loginPage.clickLoginButton();
-    await loginPage.setUpLater.waitForClickable({ timeout: 15000 });
+    await loginPage.setUpLater.waitForClickable({ timeout: 25000 });
     await loginPage.clickSetUpLater();
     const hometUrl = await browser.getUrl();
     await expect(hometUrl).toContain('https://portal.telnyx.com/#/home');

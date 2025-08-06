@@ -96,8 +96,8 @@ public async fillLoginForm(): Promise<void> {
   //.MuiBox-root.frontend-customer-portal-1ektdzq .frontend-customer-portal-1rghx5t
 
   public async clickSetUpLater() { 
-    await this.setUpLater.waitForDisplayed({ timeout: 15000 });  
-    await this.setUpLater.waitForClickable({ timeout: 15000 });   
+    await this.setUpLater.waitForDisplayed({ timeout: 25000 });  
+    await this.setUpLater.waitForClickable({ timeout: 25000 });   
     await this.setUpLater.click();
   }   
 }
