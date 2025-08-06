@@ -8,6 +8,7 @@ export const config = {
     browserName: 'chrome',
     'goog:chromeOptions': {
       args: [
+        //'--start-maximized',
         '--headless=new',
         '--window-size=1920,1080',
         '--disable-gpu',

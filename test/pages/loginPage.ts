@@ -48,9 +48,13 @@ public async fillLoginForm(): Promise<void> {
   await this.passwordInput.setValue(this._password);
 }
   public get loginButton(): ChainablePromiseElement {
-    return $('.MuiButtonBase-root.MuiButton-root.MuiButton-contained');
+    return $('.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeLarge.MuiButton-containedSizeLarge');
   }
 
+  
+  //form[@aria-label='loginForm']//button[text()='Log in']
+  ///button[normalize-space(.) = "Log in"]
+//// form[aria-label="loginForm"] button[type="submit"]
   public async clickLoginButton(): Promise<void> {
 
   await this.loginButton.waitForDisplayed({ timeout: 15000 });
@@ -91,7 +95,7 @@ public async fillLoginForm(): Promise<void> {
   }
 
   public get setUpLater() {
-    return $('.MuiBox-root.frontend-customer-portal-1ektdzq [role="button"]');
+    return $('[role="button"]');
   }
   //.MuiBox-root.frontend-customer-portal-1ektdzq .frontend-customer-portal-1rghx5t
 

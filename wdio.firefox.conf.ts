@@ -8,8 +8,9 @@ export const config = {
     'moz:firefoxOptions': {
       args: [
         '-headless',
-        '--width=1920',
-        '--height=1080'],
+     //   '--start-maximized'
+      '--window-size=1920,1080',
+      ],
     },
   }],
 };

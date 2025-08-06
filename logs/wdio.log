@@ -1,149 +1,65 @@
-2025-08-06T11:38:26.900Z INFO webdriver: [POST] http://localhost:61503/session
-2025-08-06T11:38:29.254Z INFO webdriver: Reconnect to new Bidi session at ws://127.0.0.1:61687/session/34c51908-88e4-4d65-89fd-ba23eff991e7
-2025-08-06T11:38:29.254Z INFO webdriver: Connecting to webSocketUrl ws://127.0.0.1:61687/session/34c51908-88e4-4d65-89fd-ba23eff991e7
-2025-08-06T11:38:29.261Z INFO webdriver: Connected to Bidi protocol at ws://127.0.0.1:61687/session/34c51908-88e4-4d65-89fd-ba23eff991e7
-2025-08-06T11:38:29.261Z INFO webdriver: BIDI COMMAND session.subscribe {"events":["browsingContext.contextCreated"]}
-2025-08-06T11:38:29.261Z INFO webdriver: BIDI COMMAND session.subscribe {"events":["log.entryAdded","browsingContext.navigationStarted"]}
-2025-08-06T11:38:29.262Z INFO webdriver: BIDI COMMAND script.addPreloadScript { functionDeclaration: <PreloadScript[1319 bytes]>, contexts: undefined }
-2025-08-06T11:38:29.262Z INFO webdriver: BIDI COMMAND session.subscribe {"events":["browsingContext.navigationStarted","browsingContext.fragmentNavigated","network.responseCompleted","network.beforeRequestSent","network.fetchError"]}
-2025-08-06T11:38:29.262Z INFO webdriver: BIDI COMMAND session.subscribe {"events":["browsingContext.userPromptOpened"]}
-2025-08-06T11:38:29.262Z INFO webdriver: BIDI COMMAND session.subscribe {"events":["browsingContext.navigationStarted"]}
-2025-08-06T11:38:29.262Z INFO webdriver: COMMAND getWindowHandle()
-2025-08-06T11:38:29.263Z INFO webdriver: BIDI COMMAND browsingContext.getTree {}
-2025-08-06T11:38:29.263Z INFO webdriver: [GET] http://localhost:61503/session/34c51908-88e4-4d65-89fd-ba23eff991e7/window
-2025-08-06T11:38:29.294Z INFO webdriver: BIDI RESULT {"type":"success","id":62,"result":{"subscription":"167aad15-cf75-4679-868f-951e3f294a10"}}
-2025-08-06T11:38:29.296Z INFO webdriver: BIDI RESULT {"type":"success","id":63,"result":{"contexts":[{"children":[],"context":"b2fad291-4be4-4e26-b60a-3ddb0a4bfe2b","originalOpener":null,"url":"about:blank","userContext":"default","clientWindow":"12b24085-ad14-48fa-816e-298a57f91c0a","parent":null}]}}
-2025-08-06T11:38:29.296Z INFO webdriverio:PolyfillManager: Adding polyfill script to context with id b2fad291-4be4-4e26-b60a-3ddb0a4bfe2b
-2025-08-06T11:38:29.296Z INFO we2025-08-06T11:38:33.604Z INFO @wdio/cli:launcher: Run onWorkerEnd hook
-2025-08-06T11:38:33.607Z INFO @wdio/local-runner: Shutting down spawned worker
-2025-08-06T11:38:33.866Z INFO @wdio/local-runner: Waiting for 0 to shut down gracefully
-"default","clientWindow":"12b24085-ad14-48fa-816e-298a57f91c0a","parent":null},"awaitPromise":false}
-2025-08-06T11:38:29.296Z INFO webdriver: BIDI COMMAND script.addPreloadScript { functionDeclaration: <PreloadScript[443 bytes]>, contexts: ["b2fad291-4be4-4e26-b60a-3ddb0a4bfe2b"] }
-2025-08-06T11:38:29.299Z INFO webdriver: BIDI RESULT {"type":"success","id":57,"result":{"subscription":"cbfe55ee-dff6-4afa-b3b7-218754ef09b4"}}
-2025-08-06T11:38:29.299Z INFO webdriver: BIDI RESULT {"type":"success","id":58,"result":{"subscription":"e91bb694-8b7b-4d8c-a4ba-a1e13359978d"}}
-2025-08-06T11:38:29.299Z INFO webdriver: BIDI RESULT {"type":"success","id":59,"result":{"script":"adb66895-7064-4485-a45e-10b58f7b7a76"}}
-2025-08-06T11:38:29.299Z INFO webdriver: BIDI RESULT {"type":"success","id":60,"result":{"subscription":"efce2240-38f8-40f5-9a71-6ffbdf37110a"}}
-2025-08-06T11:38:29.299Z INFO webdriver: BIDI RESULT {"type":"success","id":61,"result":{"subscription":"cf4923e1-ce85-4ca1-acf7-af4e572490ea"}}
-2025-08-06T11:38:29.305Z INFO webdriver: RESULT b2fad291-4be4-4e26-b60a-3ddb0a4bfe2b
-2025-08-06T11:38:29.305Z INFO webdriver: BIDI RESULT {"type":"success","id":64,"result":{"realm":"0db23aa0-15dc-449d-84f3-f4c03fd8a3c6","type":"success","result":{"type":"undefined"}}}
-2025-08-06T11:38:29.306Z INFO webdriver: BIDI RESULT {"type":"success","id":65,"result":{"script":"fcad6ae0-5ae5-4d09-aa67-d7f6defdd5f9"}}
-2025-08-06T11:38:29.306Z INFO webdriver: BIDI COMMAND browsingContext.navigate {"context":"b2fad291-4be4-4e26-b60a-3ddb0a4bfe2b","url":"https://telnyx.com/","wait":"complete"}
-2025-08-06T11:38:30.193Z INFO webdriver: BIDI RESULT {"type":"success","id":66,"result":{"navigation":"877cb318-d163-47ee-81d7-a011df1c7670","url":"https://telnyx.com/"}}
-2025-08-06T11:38:30.193Z INFO webdriver: COMMAND maximizeWindow()
-2025-08-06T11:38:30.193Z INFO webdriver: [POST] http://localhost:61503/session/34c51908-88e4-4d65-89fd-ba23eff991e7/window/maximize
-2025-08-06T11:38:30.479Z INFO webdriver: RESULT { x: -7, y: -7, width: 1550, height: 830 }
-2025-08-06T11:38:30.480Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":".onetrust-banner-options #onetrust-accept-btn-handler"},"context":"b2fad291-4be4-4e26-b60a-3ddb0a4bfe2b"}
-2025-08-06T11:38:30.608Z INFO webdriver: BIDI RESULT {"type":"success","id":67,"result":{"nodes":[]}}
-2025-08-06T11:38:30.614Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":".onetrust-banner-options #onetrust-accept-btn-handler"},"context":"b2fad291-4be4-4e26-b60a-3ddb0a4bfe2b"}
-2025-08-06T11:38:30.666Z INFO webdriver: BIDI RESULT {"type":"success","id":68,"result":{"nodes":[]}}
-2025-08-06T11:38:30.670Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"a[href=\"https://twitter.com/telnyx\"]"},"context":"b2fad291-4be4-4e26-b60a-3ddb0a4bfe2b"}
-2025-08-06T11:38:30.748Z WARN webdriverio:ShadowRootManager: Expected element with shadow root but found <lottie-player />
-2025-08-06T11:38:30.748Z WARN webdriverio:ShadowRootManager: Expected element with shadow root but found <lottie-player />
-2025-08-06T11:38:30.748Z WARN webdriverio:ShadowRootManager: Expected element with shadow root but found <lottie-player />
-2025-08-06T11:38:30.748Z WARN webdriverio:ShadowRootManager: Expected element with shadow root but found <lottie-player />
-2025-08-06T11:38:30.749Z INFO webdriverio:ShadowRootManager: Registered new shadow root for element <lottie-player /> with id d146c2a9-e567-4592-abf0-61b4890fb388
-2025-08-06T11:38:30.749Z INFO webdriverio:ShadowRootManager: Registered new shadow root for element <lottie-player /> with id d146c2a9-e567-4592-abf0-61b4890fb388
-2025-08-06T11:38:30.749Z INFO webdriverio:ShadowRootManager: Registered new shadow root for element <lottie-player /> with id d146c2a9-e567-4592-abf0-61b4890fb388
-2025-08-06T11:38:30.749Z INFO webdriverio:ShadowRootManager: Registered new shadow root for element <lottie-player /> with id d146c2a9-e567-4592-abf0-61b4890fb388
-2025-08-06T11:38:30.765Z WARN webdriverio:ShadowRootManager: Expected element with shadow root but found <lottie-player />
-2025-08-06T11:38:30.765Z WARN webdriverio:ShadowRootManager: Expected element with shadow root but found <lottie-player />
-2025-08-06T11:38:30.765Z WARN webdriverio:ShadowRootManager: Expected element with shadow root but found <lottie-player />
-2025-08-06T11:38:30.765Z WARN webdriverio:ShadowRootManager: Expected element with shadow root but found <lottie-player />
-2025-08-06T11:38:30.766Z INFO webdriverio:ShadowRootManager: Registered new shadow root for element <lottie-player /> with id 906d7c1c-3868-430f-95f2-73b31922b331
-2025-08-06T11:38:30.766Z INFO webdriverio:ShadowRootManager: Registered new shadow root for element <lottie-player /> with id 906d7c1c-3868-430f-95f2-73b31922b331
-2025-08-06T11:38:30.766Z INFO webdriverio:ShadowRootManager: Registered new shadow root for element <lottie-player /> with id 906d7c1c-3868-430f-95f2-73b31922b331
-2025-08-06T11:38:30.766Z INFO webdriverio:ShadowRootManager: Registered new shadow root for element <lottie-player /> with id 906d7c1c-3868-430f-95f2-73b31922b331
-2025-08-06T11:38:30.781Z INFO webdriver: BIDI RESULT {"type":"success","id":69,"result":{"nodes":[{"type":"node","sharedId":"ec403270-317d-4de5-aabe-29ad7a95c6b9","value":{"nodeType":1,"localName":"a","namespaceURI":"http://www.w3.org/1999/xhtml","childNodeCount":1,"attributes":{"rel":"noopener noreferrer","target":"_blank","href":"https://twitter.com/telnyx","class":"c-tKuzq"},"shadowRoot":null}}]}}
-2025-08-06T11:38:30.785Z INFO webdriver: COMMAND getElementRect("ec403270-317d-4de5-aabe-29ad7a95c6b9")
-2025-08-06T11:38:30.785Z INFO webdriver: [GET] http://localhost:61503/session/34c51908-88e4-4d65-89fd-ba23eff991e7/element/ec403270-317d-4de5-aabe-29ad7a95c6b9/rect
-2025-08-06T11:38:30.800Z INFO webdriver: RESULT { x: 604, y: 11262.7998046875, width: 24, height: 17.599990844726562 }
-2025-08-06T11:38:30.801Z INFO webdriver: COMMAND getWindowRect()
-2025-08-06T11:38:30.801Z INFO webdriver: [GET] http://localhost:61503/session/34c51908-88e4-4d65-89fd-ba23eff991e7/window/rect
-2025-08-06T11:38:30.829Z INFO webdriver: RESULT { x: -7, y: -7, width: 1550, height: 830 }
-2025-08-06T11:38:30.829Z INFO webdriver: BIDI COMMAND script.callFunction {"functionDeclaration":"<Function[161 bytes] anonymous>","awaitPromise":true,"arguments":[],"target":{"context":"b2fad291-4be4-4e26-b60a-3ddb0a4bfe2b"}}
-2025-08-06T11:38:30.841Z INFO webdriver: BIDI RESULT {"type":"success","id":70,"result":{"realm":"9f1fbf97-6b98-4a5c-b2aa-48b12732ce9a","type":"success","result":{"type":"array","value":[{"type":"number","value":0},{"type":"number","value":0}]}}}
-2025-08-06T11:38:30.841Z INFO webdriver: COMMAND performActions(<object>)
-2025-08-06T11:38:30.841Z INFO webdriver: [POST] http://localhost:61503/session/34c51908-88e4-4d65-89fd-ba23eff991e7/actions
-2025-08-06T11:38:30.841Z INFO webdriver: DATA {
-  actions: [
-    { id: 'action3', type: 'wheel', parameters: {}, actions: [Array] }
-  ]
-}
-2025-08-06T11:38:30.935Z WARN webdriverio: Failed to execute "scrollIntoView" using WebDriver Actions API: WebDriverError: Move target (-910, 16826) is out of bounds of viewport dimensions (1536, 731) when running "actions" with method "POST" and args "{"actions":[{"id":"action3","type":"wheel","parameters":{},"actions":[{"type":"scroll","x":-1526,"y":10830,"deltaX":0,"deltaY":0,"duration":0,"origin":{"element-6066-11e4-a52e-4f735466cecf":"ec403270-317d-4de5-aabe-29ad7a95c6b9"}}]}]}"!
-Re-attempting using `Element.scrollIntoView` via Web API.
-2025-08-06T11:38:30.936Z INFO webdriver: BIDI COMMAND script.callFunction {"functionDeclaration":"<Function[154 bytes] anonymous>","awaitPromise":true,"arguments":[{"sharedId":"ec403270-317d-4de5-aabe-29ad7a95c6b9"},{"type":"object","value":[["block",{"type":"string","value":"start"}],["inline",{"type":"string","value":"nearest"}]]}],"target":{"context":"b2fad291-4be4-4e26-b60a-3ddb0a4bfe2b"}}
-2025-08-06T11:38:30.944Z INFO webdriver: BIDI RESULT {"type":"success","id":71,"result":{"realm":"9f1fbf97-6b98-4a5c-b2aa-48b12732ce9a","type":"success","result":{"type":"undefined"}}}
-2025-08-06T11:38:30.945Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"a[href=\"https://twitter.com/telnyx\"]"},"context":"b2fad291-4be4-4e26-b60a-3ddb0a4bfe2b","startNodes":[{"sharedId":"bdc388cf-1744-4c4f-a07f-56ca75356ab3"},{"sharedId":"2ba2fcef-fd69-41a4-86b8-f89ecd349050"},{"sharedId":"906d7c1c-3868-430f-95f2-73b31922b331"}]}
-2025-08-06T11:38:30.950Z INFO webdriver: BIDI RESULT {"type":"success","id":72,"result":{"nodes":[{"type":"node","sharedId":"ec403270-317d-4de5-aabe-29ad7a95c6b9","value":{"nodeType":1,"localName":"a","namespaceURI":"http://www.w3.org/1999/xhtml","childNodeCount":1,"attributes":{"rel":"noopener noreferrer","target":"_blank","href":"https://twitter.com/telnyx","class":"c-tKuzq"},"shadowRoot":null}},{"type":"node","sharedId":"ec403270-317d-4de5-aabe-29ad7a95c6b9","value":{"nodeType":1,"localName":"a","namespaceURI":"http://www.w3.org/1999/xhtml","childNodeCount":1,"attributes":{"rel":"noopener noreferrer","target":"_blank","href":"https://twitter.com/telnyx","class":"c-tKuzq"},"shadowRoot":null}}]}}
-2025-08-06T11:38:30.952Z INFO webdriver: COMMAND elementClick("ec403270-317d-4de5-aabe-29ad7a95c6b9")
-2025-08-06T11:38:30.952Z INFO webdriver: [POST] http://localhost:61503/session/34c51908-88e4-4d65-89fd-ba23eff991e7/element/ec403270-317d-4de5-aabe-29ad7a95c6b9/click
-2025-08-06T11:38:30.959Z WARN webdriver: WebDriverError: Element <a class="c-tKuzq" href="https://twitter.com/telnyx"> could not be scrolled into view when running "element/ec403270-317d-4de5-aabe-29ad7a95c6b9/click" with method "POST"
-2025-08-06T11:38:30.959Z INFO webdriver: Retrying 1/3
-2025-08-06T11:38:30.959Z INFO webdriver: [POST] http://localhost:61503/session/34c51908-88e4-4d65-89fd-ba23eff991e7/element/ec403270-317d-4de5-aabe-29ad7a95c6b9/click
-2025-08-06T11:38:31.028Z INFO webdriverio:PolyfillManager: Adding polyfill script to context with id 15032385537
-2025-08-06T11:38:31.029Z INFO webdriverio:PolyfillManager: Adding polyfill script to context with id 15032385537
-2025-08-06T11:38:31.029Z INFO webdriver: BIDI COMMAND script.callFunction {"functionDeclaration":"<Function[443 bytes] webdriverioPolyfill>","target":{"children":null,"context":"15032385537","originalOpener":null,"url":"about:blank","userContext":"default","clientWindow":"12b24085-ad14-48fa-816e-298a57f91c0a","parent":"b2fad291-4be4-4e26-b60a-3ddb0a4bfe2b"},"awaitPromise":false}
-2025-08-06T11:38:31.030Z INFO webdriver: BIDI COMMAND script.callFunction {"functionDeclaration":"<Function[443 bytes] webdriverioPolyfill>","target":{"children":null,"context":"15032385537","originalOpener":null,"url":"about:blank","userContext":"default","clientWindow":"12b24085-ad14-48fa-816e-298a57f91c0a","parent":"b2fad291-4be4-4e26-b60a-3ddb0a4bfe2b"},"awaitPromise":false}
-2025-08-06T11:38:31.046Z INFO webdriver: BIDI COMMAND browsingContext.getTree {}
-2025-08-06T11:38:31.046Z INFO webdriver: BIDI RESULT {"type":"success","id":73,"result":{"realm":"6e836ad2-c3bb-4c18-b6e4-99f4c7259349","type":"success","result":{"type":"undefined"}}}
-2025-08-06T11:38:31.050Z INFO webdriver: BIDI RESULT {"type":"success","id":75,"result":{"contexts":[{"children":[{"children":[],"context":"15032385537","originalOpener":null,"url":"about:blank","userContext":"default","clientWindow":"12b24085-ad14-48fa-816e-298a57f91c0a"}],"context":"b2fad291-4be4-4e26-b60a-3ddb0a4bfe2b","originalOpener":null,"url":"https://telnyx.com/","userContext":"default","clientWindow":"12b24085-ad14-48fa-816e-298a57f91c0a","parent":null}]}}
-2025-08-06T11:38:31.052Z INFO webdriver: BIDI RESULT {"type":"success","id":74,"result":{"realm":"6e836ad2-c3bb-4c18-b6e4-99f4c7259349","type":"success","result":{"type":"undefined"}}}
-2025-08-06T11:38:31.464Z WARN webdriver: WebDriverError: Element <a class="c-tKuzq" href="https://twitter.com/telnyx"> could not be scrolled into view when running "element/ec403270-317d-4de5-aabe-29ad7a95c6b9/click" with method "POST"
-2025-08-06T11:38:31.464Z INFO webdriver: Retrying 2/3
-2025-08-06T11:38:31.464Z INFO webdriver: [POST] http://localhost:61503/session/34c51908-88e4-4d65-89fd-ba23eff991e7/element/ec403270-317d-4de5-aabe-29ad7a95c6b9/click
-2025-08-06T11:38:31.509Z INFO webdriverio:PolyfillManager: Adding polyfill script to context with id 9da6a4fd-8382-464b-844a-66dd4a6e721b
-2025-08-06T11:38:31.510Z INFO webdriver: BIDI COMMAND script.callFunction {"functionDeclaration":"<Function[443 bytes] webdriverioPolyfill>","target":{"children":null,"context":"9da6a4fd-8382-464b-844a-66dd4a6e721b","originalOpener":"b2fad291-4be4-4e26-b60a-3ddb0a4bfe2b","url":"about:blank","userContext":"default","clientWindow":"12b24085-ad14-48fa-816e-298a57f91c0a","parent":null},"awaitPromise":false}
-2025-08-06T11:38:31.510Z INFO webdriverio:PolyfillManager: Adding polyfill script to context with id 9da6a4fd-8382-464b-844a-66dd4a6e721b
-2025-08-06T11:38:31.510Z INFO webdriver: BIDI COMMAND script.addPreloadScript { functionDeclaration: <PreloadScript[443 bytes]>, contexts: ["9da6a4fd-8382-464b-844a-66dd4a6e721b"] }
-2025-08-06T11:38:31.510Z INFO webdriver: BIDI COMMAND script.callFunction {"functionDeclaration":"<Function[443 bytes] webdriverioPolyfill>","target":{"children":null,"context":"9da6a4fd-8382-464b-844a-66dd4a6e721b","originalOpener":"b2fad291-4be4-4e26-b60a-3ddb0a4bfe2b","url":"about:blank","userContext":"default","clientWindow":"12b24085-ad14-48fa-816e-298a57f91c0a","parent":null},"awaitPromise":false}
-2025-08-06T11:38:31.510Z INFO webdriverio:PolyfillManager: Adding polyfill script to context with id 9da6a4fd-8382-464b-844a-66dd4a6e721b
-2025-08-06T11:38:31.511Z INFO webdriver: BIDI COMMAND script.addPreloadScript { functionDeclaration: <PreloadScript[443 bytes]>, contexts: ["9da6a4fd-8382-464b-844a-66dd4a6e721b"] }
-2025-08-06T11:38:31.511Z INFO webdriver: BIDI COMMAND script.callFunction {"functionDeclaration":"<Function[443 bytes] webdriverioPolyfill>","target":{"children":null,"context":"9da6a4fd-8382-464b-844a-66dd4a6e721b","originalOpener":"b2fad291-4be4-4e26-b60a-3ddb0a4bfe2b","url":"about:blank","userContext":"default","clientWindow":"12b24085-ad14-48fa-816e-298a57f91c0a","parent":null},"awaitPromise":false}
-2025-08-06T11:38:31.511Z INFO webdriverio:PolyfillManager: Adding polyfill script to context with id 9da6a4fd-8382-464b-844a-66dd4a6e721b
-2025-08-06T11:38:31.511Z INFO webdriver: BIDI COMMAND script.addPreloadScript { functionDeclaration: <PreloadScript[443 bytes]>, contexts: ["9da6a4fd-8382-464b-844a-66dd4a6e721b"] }
-2025-08-06T11:38:31.511Z INFO webdriver: BIDI COMMAND script.callFunction {"functionDeclaration":"<Function[443 bytes] webdriverioPolyfill>","target":{"children":null,"context":"9da6a4fd-8382-464b-844a-66dd4a6e721b","originalOpener":"b2fad291-4be4-4e26-b60a-3ddb0a4bfe2b","url":"about:blank","userContext":"default","clientWindow":"12b24085-ad14-48fa-816e-298a57f91c0a","parent":null},"awaitPromise":false}
-2025-08-06T11:38:31.511Z INFO webdriver: BIDI COMMAND script.addPreloadScript { functionDeclaration: <PreloadScript[443 bytes]>, contexts: ["9da6a4fd-8382-464b-844a-66dd4a6e721b"] }
-2025-08-06T11:38:31.547Z INFO webdriver: RESULT null
-2025-08-06T11:38:31.547Z INFO webdriver: COMMAND getWindowHandles()
-2025-08-06T11:38:31.548Z INFO webdriver: [GET] http://localhost:61503/session/34c51908-88e4-4d65-89fd-ba23eff991e7/window/handles
-2025-08-06T11:38:31.549Z INFO webdriver: BIDI COMMAND browsingContext.getTree {}
-2025-08-06T11:38:31.555Z INFO webdriver: BIDI RESULT {"type":"success","id":84,"result":{"contexts":[{"children":[{"children":[],"context":"15032385537","originalOpener":null,"url":"https://player.vimeo.com/video/1075277174?autoplay=true&muted=true&loop=true&controls=false&quality=auto&autopause=true","userContext":"default","clientWindow":"12b24085-ad14-48fa-816e-298a57f91c0a"}],"context":"b2fad291-4be4-4e26-b60a-3ddb0a4bfe2b","originalOpener":null,"url":"https://telnyx.com/","userContext":"default","clientWindow":"12b24085-ad14-48fa-816e-298a57f91c0a","parent":null},{"children":[],"context":"9da6a4fd-8382-464b-844a-66dd4a6e721b","originalOpener":"b2fad291-4be4-4e26-b60a-3ddb0a4bfe2b","url":"about:blank","userContext":"default","clientWindow":"12b24085-ad14-48fa-816e-298a57f91c0a","parent":null}]}}
-2025-08-06T11:38:31.555Z INFO webdriver: BIDI RESULT {"type":"success","id":78,"result":{"realm":"a0e3e8c6-0373-4328-b8db-7e650121fc8e","type":"success","result":{"type":"undefined"}}}
-2025-08-06T11:38:31.555Z INFO webdriver: BIDI RESULT {"type":"success","id":76,"result":{"realm":"a0e3e8c6-0373-4328-b8db-7e650121fc8e","type":"success","result":{"type":"undefined"}}}
-2025-08-06T11:38:31.555Z INFO webdriver: BIDI RESULT {"type":"success","id":79,"result":{"script":"0e1b456e-237f-49d9-9bac-86593e8f6f0a"}}
-2025-08-06T11:38:31.556Z INFO webdriver: BIDI RESULT {"type":"success","id":77,"result":{"script":"0e86386e-d353-43f2-aeba-58a98f6df6c7"}}
-2025-08-06T11:38:31.556Z INFO webdriver: BIDI RESULT {"type":"success","id":82,"result":{"realm":"a0e3e8c6-0373-4328-b8db-7e650121fc8e","type":"success","result":{"type":"undefined"}}}
-2025-08-06T11:38:31.556Z INFO webdriver: BIDI RESULT {"type":"success","id":83,"result":{"script":"5db4b892-ab06-473c-a8b5-1999668fff63"}}
-2025-08-06T11:38:31.556Z INFO webdriver: BIDI RESULT {"type":"success","id":81,"result":{"script":"98286792-dafe-4fa2-a473-e4bd37acc695"}}
-2025-08-06T11:38:31.556Z INFO webdriver: BIDI RESULT {"type":"success","id":80,"result":{"realm":"a0e3e8c6-0373-4328-b8db-7e650121fc8e","type":"success","result":{"type":"undefined"}}}
-2025-08-06T11:38:31.568Z INFO webdriver: RESULT [
-  'b2fad291-4be4-4e26-b60a-3ddb0a4bfe2b',
-  '9da6a4fd-8382-464b-844a-66dd4a6e721b'
-]
-2025-08-06T11:38:31.569Z INFO webdriver: COMMAND switchToWindow("9da6a4fd-8382-464b-844a-66dd4a6e721b")
-2025-08-06T11:38:31.569Z INFO webdriver: [POST] http://localhost:61503/session/34c51908-88e4-4d65-89fd-ba23eff991e7/window
-2025-08-06T11:38:31.569Z INFO webdriver: DATA { handle: '9da6a4fd-8382-464b-844a-66dd4a6e721b' }
-2025-08-06T11:38:31.575Z INFO webdriver: RESULT null
-2025-08-06T11:38:31.576Z INFO webdriver: COMMAND getUrl()
-2025-08-06T11:38:31.576Z INFO webdriver: [GET] http://localhost:61503/session/34c51908-88e4-4d65-89fd-ba23eff991e7/url
-2025-08-06T11:38:31.585Z INFO webdriver: RESULT about:blank
-2025-08-06T11:38:31.679Z INFO webdriver: COMMAND getUrl()
-2025-08-06T11:38:31.679Z INFO webdriver: [GET] http://localhost:61503/session/34c51908-88e4-4d65-89fd-ba23eff991e7/url
-2025-08-06T11:38:31.721Z INFO webdriver: RESULT about:blank
-2025-08-06T11:38:31.778Z INFO webdriver: COMMAND getUrl()
-2025-08-06T11:38:31.778Z INFO webdriver: [GET] http://localhost:61503/session/34c51908-88e4-4d65-89fd-ba23eff991e7/url
-2025-08-06T11:38:31.785Z INFO webdriver: RESULT about:blank
-2025-08-06T11:38:31.877Z INFO webdriver: COMMAND getUrl()
-2025-08-06T11:38:31.877Z INFO webdriver: [GET] http://localhost:61503/session/34c51908-88e4-4d65-89fd-ba23eff991e7/url
-2025-08-06T11:38:31.881Z INFO webdriver: RESULT about:blank
-2025-08-06T11:38:31.976Z INFO webdriver: COMMAND getUrl()
-2025-08-06T11:38:31.976Z INFO webdriver: [GET] http://localhost:61503/session/34c51908-88e4-4d65-89fd-ba23eff991e7/url
-2025-08-06T11:38:31.983Z INFO webdriver: RESULT about:blank
-2025-08-06T11:38:32.076Z INFO webdriver: COMMAND getUrl()
-2025-08-06T11:38:32.076Z INFO webdriver: [GET] http://localhost:61503/session/34c51908-88e4-4d65-89fd-ba23eff991e7/url
-2025-08-06T11:38:32.124Z INFO webdriver: RESULT https://x.com/telnyx
-2025-08-06T11:38:32.129Z INFO webdriver: COMMAND deleteSession()
-2025-08-06T11:38:32.129Z INFO webdriver: [DELETE] http://localhost:61503/session/34c51908-88e4-4d65-89fd-ba23eff991e7
-2025-08-06T11:38:33.481Z INFO webdriver: RESULT null
-2025-08-06T11:38:33.481Z INFO webdriver: Close Bidi connection to ws://127.0.0.1:61687/session/34c51908-88e4-4d65-89fd-ba23eff991e7
-2025-08-06T11:38:33.481Z INFO webdriver: Kill driver process with PID 23216
+2025-08-06T18:37:45.028Z INFO webdriver: [POST] http://localhost:51257/session
+2025-08-06T18:37:46.598Z INFO webdriver: Reconnect to new Bidi session at ws://127.0.0.1:52327/session/e5ebbe0d-3c82-47a2-8a94-457c2adb3e6c
+2025-08-06T18:37:46.599Z INFO webdriver: Connecting to webSocketUrl ws://127.0.0.1:52327/session/e5ebbe0d-3c82-47a2-8a94-457c2adb3e6c
+2025-08-06T18:37:46.609Z INFO webdriver: Connected to Bidi protocol at ws://127.0.0.1:52327/session/e5eb2025-08-06T18:37:51.486Z INFO @wdio/cli:launcher: Run onWorkerEnd hook
+2025-08-06T18:37:51.489Z INFO @wdio/local-runner: Shutting down spawned worker
+2025-08-06T18:37:51.742Z INFO @wdio/local-runner: Waiting for 0 to shut down gracefully
+.entryAdded","browsingContext.navigationStarted"]}
+2025-08-06T18:37:46.610Z INFO webdriver: BIDI COMMAND script.addPreloadScript { functionDeclaration: <PreloadScript[1319 bytes]>, contexts: undefined }
+2025-08-06T18:37:46.610Z INFO webdriver: BIDI COMMAND session.subscribe {"events":["browsingContext.navigationStarted","browsingContext.fragmentNavigated","network.responseCompleted","network.beforeRequestSent","network.fetchError"]}
+2025-08-06T18:37:46.611Z INFO webdriver: BIDI COMMAND session.subscribe {"events":["browsingContext.userPromptOpened"]}
+2025-08-06T18:37:46.611Z INFO webdriver: BIDI COMMAND session.subscribe {"events":["browsingContext.navigationStarted"]}
+2025-08-06T18:37:46.611Z INFO webdriver: COMMAND getWindowHandle()
+2025-08-06T18:37:46.611Z INFO webdriver: BIDI COMMAND browsingContext.getTree {}
+2025-08-06T18:37:46.612Z INFO webdriver: [GET] http://localhost:51257/session/e5ebbe0d-3c82-47a2-8a94-457c2adb3e6c/window
+2025-08-06T18:37:46.649Z INFO webdriver: BIDI RESULT {"type":"success","id":2391,"result":{"subscription":"d1788a14-1b2b-4961-b518-9e20db0e06d6"}}
+2025-08-06T18:37:46.650Z INFO webdriver: BIDI RESULT {"type":"success","id":2392,"result":{"contexts":[{"children":[],"context":"ae3657a5-7d40-47fc-b5db-5424c8841fb2","originalOpener":null,"url":"about:blank","userContext":"default","clientWindow":"fed2caa8-b27e-48ab-967e-16f7aa580e84","parent":null}]}}
+2025-08-06T18:37:46.651Z INFO webdriverio:PolyfillManager: Adding polyfill script to context with id ae3657a5-7d40-47fc-b5db-5424c8841fb2
+2025-08-06T18:37:46.651Z INFO webdriver: BIDI COMMAND script.callFunction {"functionDeclaration":"<Function[443 bytes] webdriverioPolyfill>","target":{"children":[],"context":"ae3657a5-7d40-47fc-b5db-5424c8841fb2","originalOpener":null,"url":"about:blank","userContext":"default","clientWindow":"fed2caa8-b27e-48ab-967e-16f7aa580e84","parent":null},"awaitPromise":false}
+2025-08-06T18:37:46.651Z INFO webdriver: BIDI COMMAND script.addPreloadScript { functionDeclaration: <PreloadScript[443 bytes]>, contexts: ["ae3657a5-7d40-47fc-b5db-5424c8841fb2"] }
+2025-08-06T18:37:46.654Z INFO webdriver: BIDI RESULT {"type":"success","id":2386,"result":{"subscription":"b8cfed52-b2e0-4483-bad9-b336c448e32a"}}
+2025-08-06T18:37:46.654Z INFO webdriver: BIDI RESULT {"type":"success","id":2387,"result":{"subscription":"bc81a9d2-9d40-427a-b33a-47551fc89600"}}
+2025-08-06T18:37:46.654Z INFO webdriver: BIDI RESULT {"type":"success","id":2388,"result":{"script":"382bac1c-f165-44fa-a37c-997ee0eca436"}}
+2025-08-06T18:37:46.655Z INFO webdriver: BIDI RESULT {"type":"success","id":2389,"result":{"subscription":"a8540e0d-2663-4dee-892a-d31c5f798ee5"}}
+2025-08-06T18:37:46.655Z INFO webdriver: BIDI RESULT {"type":"success","id":2390,"result":{"subscription":"fcea8867-be85-4d39-8b60-b8acad2fa22e"}}
+2025-08-06T18:37:46.660Z INFO webdriver: RESULT ae3657a5-7d40-47fc-b5db-5424c8841fb2
+2025-08-06T18:37:46.661Z INFO webdriver: BIDI RESULT {"type":"success","id":2393,"result":{"realm":"6ab0586c-391a-4212-be76-d68387aa4259","type":"success","result":{"type":"undefined"}}}
+2025-08-06T18:37:46.661Z INFO webdriver: BIDI RESULT {"type":"success","id":2394,"result":{"script":"740f5597-888e-458d-8d45-36278db8e6b2"}}
+2025-08-06T18:37:46.661Z INFO webdriver: BIDI COMMAND browsingContext.navigate {"context":"ae3657a5-7d40-47fc-b5db-5424c8841fb2","url":"https://portal.telnyx.com/#/login/sign-in","wait":"complete"}
+2025-08-06T18:37:49.661Z INFO webdriverio:PolyfillManager: Adding polyfill script to context with id 12884901889
+2025-08-06T18:37:49.661Z INFO webdriver: BIDI COMMAND script.callFunction {"functionDeclaration":"<Function[443 bytes] webdriverioPolyfill>","target":{"children":null,"context":"12884901889","originalOpener":null,"url":"about:blank","userContext":"default","clientWindow":"fed2caa8-b27e-48ab-967e-16f7aa580e84","parent":"ae3657a5-7d40-47fc-b5db-5424c8841fb2"},"awaitPromise":false}
+2025-08-06T18:37:49.663Z INFO webdriver: BIDI COMMAND browsingContext.getTree {}
+2025-08-06T18:37:49.664Z INFO webdriverio:PolyfillManager: Adding polyfill script to context with id 12884901890
+2025-08-06T18:37:49.664Z INFO webdriver: BIDI COMMAND script.callFunction {"functionDeclaration":"<Function[443 bytes] webdriverioPolyfill>","target":{"children":null,"context":"12884901890","originalOpener":null,"url":"about:blank","userContext":"default","clientWindow":"fed2caa8-b27e-48ab-967e-16f7aa580e84","parent":"ae3657a5-7d40-47fc-b5db-5424c8841fb2"},"awaitPromise":false}
+2025-08-06T18:37:49.665Z INFO webdriver: BIDI RESULT {"type":"success","id":2397,"result":{"contexts":[{"children":[{"children":[],"context":"12884901889","originalOpener":null,"url":"about:blank","userContext":"default","clientWindow":"fed2caa8-b27e-48ab-967e-16f7aa580e84"},{"children":[],"context":"12884901890","originalOpener":null,"url":"about:blank","userContext":"default","clientWindow":"fed2caa8-b27e-48ab-967e-16f7aa580e84"}],"context":"ae3657a5-7d40-47fc-b5db-5424c8841fb2","originalOpener":null,"url":"https://portal.telnyx.com/#/login/sign-in","userContext":"default","clientWindow":"fed2caa8-b27e-48ab-967e-16f7aa580e84","parent":null}]}}
+2025-08-06T18:37:49.666Z INFO webdriver: BIDI COMMAND browsingContext.getTree {}
+2025-08-06T18:37:49.668Z INFO webdriver: BIDI RESULT {"type":"success","id":2396,"result":{"realm":"8ed02575-2d2b-4463-bef4-f1600df1ae51","type":"success","result":{"type":"undefined"}}}
+2025-08-06T18:37:49.669Z INFO webdriver: BIDI RESULT {"type":"success","id":2399,"result":{"contexts":[{"children":[{"children":[],"context":"12884901889","originalOpener":null,"url":"about:blank","userContext":"default","clientWindow":"fed2caa8-b27e-48ab-967e-16f7aa580e84"},{"children":[],"context":"12884901890","originalOpener":null,"url":"about:blank","userContext":"default","clientWindow":"fed2caa8-b27e-48ab-967e-16f7aa580e84"}],"context":"ae3657a5-7d40-47fc-b5db-5424c8841fb2","originalOpener":null,"url":"https://portal.telnyx.com/#/login/sign-in","userContext":"default","clientWindow":"fed2caa8-b27e-48ab-967e-16f7aa580e84","parent":null}]}}
+2025-08-06T18:37:49.669Z INFO webdriver: BIDI RESULT {"type":"success","id":2398,"result":{"realm":"a86dd0a8-8f8b-4022-8926-66320736bad9","type":"success","result":{"type":"undefined"}}}
+2025-08-06T18:37:50.334Z INFO webdriver: BIDI RESULT {"type":"success","id":2395,"result":{"navigation":"ba5343b5-3e00-4cab-b9cd-27a3228a7295","url":"https://portal.telnyx.com/#/login/sign-in"}}
+2025-08-06T18:37:50.334Z INFO webdriver: COMMAND maximizeWindow()
+2025-08-06T18:37:50.334Z INFO webdriver: [POST] http://localhost:51257/session/e5ebbe0d-3c82-47a2-8a94-457c2adb3e6c/window/maximize
+2025-08-06T18:37:50.338Z INFO webdriver: RESULT { x: 0, y: 0, width: 1366, height: 768 }
+2025-08-06T18:37:50.338Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"a[href=\"/#/login/password-reset\"]"},"context":"ae3657a5-7d40-47fc-b5db-5424c8841fb2"}
+2025-08-06T18:37:50.343Z INFO webdriver: BIDI RESULT {"type":"success","id":2400,"result":{"nodes":[{"type":"node","sharedId":"97d56d4b-e455-4bf0-ab16-83e431124477","value":{"nodeType":1,"localName":"a","namespaceURI":"http://www.w3.org/1999/xhtml","childNodeCount":2,"attributes":{"class":"frontend-customer-portal-n6r5e1","href":"/#/login/password-reset"},"shadowRoot":null}}]}}
+2025-08-06T18:37:50.345Z INFO webdriver: COMMAND elementClick("97d56d4b-e455-4bf0-ab16-83e431124477")
+2025-08-06T18:37:50.345Z INFO webdriver: [POST] http://localhost:51257/session/e5ebbe0d-3c82-47a2-8a94-457c2adb3e6c/element/97d56d4b-e455-4bf0-ab16-83e431124477/click
+2025-08-06T18:37:50.438Z INFO webdriverio:PolyfillManager: Adding polyfill script to context with id 12884901891
+2025-08-06T18:37:50.438Z INFO webdriver: BIDI COMMAND script.callFunction {"functionDeclaration":"<Function[443 bytes] webdriverioPolyfill>","target":{"children":null,"context":"12884901891","originalOpener":null,"url":"about:blank","userContext":"default","clientWindow":"fed2caa8-b27e-48ab-967e-16f7aa580e84","parent":"ae3657a5-7d40-47fc-b5db-5424c8841fb2"},"awaitPromise":false}
+2025-08-06T18:37:50.440Z INFO webdriver: BIDI COMMAND browsingContext.getTree {}
+2025-08-06T18:37:50.441Z INFO webdriver: BIDI RESULT {"type":"success","id":2402,"result":{"contexts":[{"children":[{"children":[],"context":"12884901891","originalOpener":null,"url":"about:blank","userContext":"default","clientWindow":"fed2caa8-b27e-48ab-967e-16f7aa580e84"}],"context":"ae3657a5-7d40-47fc-b5db-5424c8841fb2","originalOpener":null,"url":"https://portal.telnyx.com/#/login/password-reset","userContext":"default","clientWindow":"fed2caa8-b27e-48ab-967e-16f7aa580e84","parent":null}]}}
+2025-08-06T18:37:50.450Z INFO webdriver: BIDI RESULT {"type":"success","id":2401,"result":{"realm":"2fdf4f58-ad01-4c61-b784-7d96efc9e15a","type":"success","result":{"type":"undefined"}}}
+2025-08-06T18:37:50.488Z INFO webdriver: RESULT null
+2025-08-06T18:37:50.488Z INFO webdriver: COMMAND getUrl()
+2025-08-06T18:37:50.488Z INFO webdriver: [GET] http://localhost:51257/session/e5ebbe0d-3c82-47a2-8a94-457c2adb3e6c/url
+2025-08-06T18:37:50.491Z INFO webdriver: RESULT https://portal.telnyx.com/#/login/password-reset
+2025-08-06T18:37:50.492Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"xpath","value":"//h1[text()=\"Password Reset\"]"},"context":"ae3657a5-7d40-47fc-b5db-5424c8841fb2"}
+2025-08-06T18:37:50.494Z INFO webdriver: BIDI RESULT {"type":"success","id":2403,"result":{"nodes":[{"type":"node","sharedId":"512d42d9-895f-4460-96d1-31a311c082a6","value":{"nodeType":1,"localName":"h1","namespaceURI":"http://www.w3.org/1999/xhtml","childNodeCount":1,"attributes":{"class":"frontend-customer-portal-1ptee0p"},"shadowRoot":null}}]}}
+2025-08-06T18:37:50.495Z INFO webdriver: COMMAND getElementText("512d42d9-895f-4460-96d1-31a311c082a6")
+2025-08-06T18:37:50.495Z INFO webdriver: [GET] http://localhost:51257/session/e5ebbe0d-3c82-47a2-8a94-457c2adb3e6c/element/512d42d9-895f-4460-96d1-31a311c082a6/text
+2025-08-06T18:37:50.502Z INFO webdriver: RESULT Password Reset
+2025-08-06T18:37:50.505Z INFO webdriver: COMMAND deleteSession()
+2025-08-06T18:37:50.505Z INFO webdriver: [DELETE] http://localhost:51257/session/e5ebbe0d-3c82-47a2-8a94-457c2adb3e6c
+2025-08-06T18:37:51.315Z INFO webdriver: RESULT null
+2025-08-06T18:37:51.315Z INFO webdriver: Close Bidi connection to ws://127.0.0.1:52327/session/e5ebbe0d-3c82-47a2-8a94-457c2adb3e6c
+2025-08-06T18:37:51.315Z INFO webdriver: Kill driver process with PID 27528
