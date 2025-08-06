@@ -2,6 +2,7 @@
   "name": "WebdriverIO_Telnyx",
   "type": "module",
   "devDependencies": {
+    "@types/node": "^24.2.0",
     "@wdio/allure-reporter": "^9.18.0",
     "@wdio/cli": "^9.18.4",
     "@wdio/globals": "^9.17.0",
@@ -10,6 +11,7 @@
     "@wdio/spec-reporter": "^9.18.0",
     "@wdio/types": "^9.16.2",
     "allure-commandline": "^2.34.1",
+    "chromedriver": "^138.0.5",
     "cross-env": "^10.0.0",
     "wdio-wait-for": "^3.1.0"
   },
@@ -25,6 +27,14 @@
   "test:login": "npm run test:heap -- --spec \"test/specs/Login.e2e.ts\"",
   "test:reset": "npm run test:heap -- --spec \"test/specs/PasswordReset.e2e.ts\"",
   "test:social": "npm run test:heap -- --spec \"test/specs/SocialMedia.e2e.ts\"",
-  "test:signUp": "npm run test:heap -- --spec \"test/specs/SignUp.e2e.ts\""
+  "test:signUp": "npm run test:heap -- --spec \"test/specs/SignUp.e2e.ts\"",
+  "test:login:chrome": "cross-env BROWSER=chrome wdio run ./wdio.chrome.conf.ts --spec \"test/specs/Login.e2e.ts\"",
+  "test:login:firefox": "cross-env BROWSER=firefox wdio run ./wdio.firefox.conf.ts --spec \"test/specs/Login.e2e.ts\"",
+  "test:reset:chrome": "cross-env BROWSER=chrome wdio run ./wdio.chrome.conf.ts --spec \"test/specs/PasswordReset.e2e.ts\"",
+  "test:reset:firefox": "cross-env BROWSER=firefox wdio run ./wdio.firefox.conf.ts --spec \"test/specs/PasswordReset.e2e.ts\"",
+  "test:social:chrome": "cross-env BROWSER=chrome wdio run ./wdio.chrome.conf.ts --spec \"test/specs/SocialMedia.e2e.ts\"",
+  "test:social:firefox": "cross-env BROWSER=firefox wdio run ./wdio.firefox.conf.ts --spec \"test/specs/SocialMedia.e2e.ts\"",
+  "test:signUp:chrome": "cross-env BROWSER=chrome wdio run ./wdio.chrome.conf.ts --spec \"test/specs/SignUp.e2e.ts\"",
+  "test:signUp:firefox": "cross-env BROWSER=firefox wdio run ./wdio.firefox.conf.ts --spec \"test/specs/SignUp.e2e.ts\""
 }
 }

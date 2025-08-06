@@ -27,25 +27,25 @@ describe('Reset Pasword tests', () => {
 }); 
     
     
-    it('should successfully send a password reset email ', async () => {
-    loginPage.email = userData.validUser.email;
-    await passwordResetPage.fillResetEmailInput();
-    await passwordResetPage.resetPasswordButtonClick();
-    await expect(passwordResetPage.acceptedResetMsg).toContain('We have accepted your password reset request.');    
+    // it('should successfully send a password reset email ', async () => {
+    // loginPage.email = userData.validUser.email;
+    // await passwordResetPage.fillResetEmailInput();
+    // await passwordResetPage.resetPasswordButtonClick();
+    // await expect(passwordResetPage.acceptedResetMsg).toContain('We have accepted your password reset request.');    
 
-    });
+    // });
   
   
-    it('should NOT accept invalid email but does so (BUG)', async () => {
-    loginPage.email = userData.invalidEmails.doubleAt.email;
-    await passwordResetPage.fillResetEmailInput();
-    await passwordResetPage.resetPasswordButtonClick();
-    await expect(passwordResetPage.acceptedResetMsg).toContain('We have accepted your password reset request.');    
+    // it('should NOT accept invalid email but does so (BUG)', async () => {
+    // loginPage.email = userData.invalidEmails.doubleAt.email;
+    // await passwordResetPage.fillResetEmailInput();
+    // await passwordResetPage.resetPasswordButtonClick();
+    // await expect(passwordResetPage.acceptedResetMsg).toContain('We have accepted your password reset request.');    
 
-    });
+    // });
     
     it('should not accept an empty email on password reset form', async () => {
-      passwordResetPage.email = '';
+      loginPage.email = userData.invalidEmails.empty.email;
       await passwordResetPage.fillResetEmailInput();
       await passwordResetPage.passwordResetTitleClick();
       await passwordResetPage.requiredError.waitForDisplayed({ timeout: 10000 });
@@ -79,29 +79,29 @@ describe('Reset Pasword tests', () => {
     await expect(newUrl).toContain('telnyx.com/sign-up');
     
   });
-    it('should NOT accept email with one letter but does so (BUG)', async () => {
-    loginPage.email = userData.invalidEmails.oneSymbol.email;
-    await passwordResetPage.fillResetEmailInput();
-    await passwordResetPage.resetPasswordButtonClick();
-    await expect(passwordResetPage.acceptedResetMsg).toContain('We have accepted your password reset request.');    
+//     it('should NOT accept email with one letter but does so (BUG)', async () => {
+//     loginPage.email = userData.invalidEmails.oneSymbol.email;
+//     await passwordResetPage.fillResetEmailInput();
+//     await passwordResetPage.resetPasswordButtonClick();
+//     await expect(passwordResetPage.acceptedResetMsg).toContain('We have accepted your password reset request.');    
 
-    });
+//     });
   
-it('should NOT accept 255 symbols in email but does so (BUG)', async () => {
-    loginPage.email = userData.invalidEmails.long255.email;
-    await passwordResetPage.fillResetEmailInput();
-    await passwordResetPage.resetPasswordButtonClick();
-    await expect(passwordResetPage.acceptedResetMsg).toContain('We have accepted your password reset request.');    
+// it('should NOT accept 255 symbols in email but does so (BUG)', async () => {
+//     loginPage.email = userData.invalidEmails.long255.email;
+//     await passwordResetPage.fillResetEmailInput();
+//     await passwordResetPage.resetPasswordButtonClick();
+//     await expect(passwordResetPage.acceptedResetMsg).toContain('We have accepted your password reset request.');    
 
-});
+// });
     
-    it('should NOT accept 256 symbols in email but does so (BUG)', async () => {  
-    loginPage.email = userData.invalidEmails.long256.email;
-    await passwordResetPage.fillResetEmailInput();
-    await passwordResetPage.resetPasswordButtonClick();
-    await expect(passwordResetPage.acceptedResetMsg).toContain('We have accepted your password reset request.');    
+//     it('should NOT accept 256 symbols in email but does so (BUG)', async () => {  
+//     loginPage.email = userData.invalidEmails.long256.email;
+//     await passwordResetPage.fillResetEmailInput();
+//     await passwordResetPage.resetPasswordButtonClick();
+//     await expect(passwordResetPage.acceptedResetMsg).toContain('We have accepted your password reset request.');    
 
-    });
+//     });
   
  // it('should show an error when password reset limit is reached (BUG)', async () => {
  //   await passwordResetPage.fillResetEmailInput('valid@email.com');

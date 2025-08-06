@@ -9,9 +9,9 @@ import * as newUsers from '../data/newUser.json';
 describe('SignUp tests', () => {
  beforeEach(async () => {
   await browser.reloadSession();
-   await browser.url('https://telnyx.com/');
+   await browser.url('https://telnyx.com/sign-up');
      await browser.maximizeWindow();
-     await acceptCookieBannerIfVisible();
+     await acceptCookieBannerIfVisible2();
     console.log(' Memory usage:', process.memoryUsage());   
      
  });
@@ -25,33 +25,22 @@ describe('SignUp tests', () => {
 }); 
 
     it('should not sign up with empty credentials and show error ', async () => {
-        const signUpButton = await mainPage.signUp;
-        await signUpButton.waitForClickable({ timeout: 5000 });
-        await signUpButton.click();
-        await acceptCookieBannerIfVisible();
         await signPage.waitForHeader();
         await expect(signPage.createTelnyxAccount).toHaveText('Create a Telnyx account');
-      await acceptCookieBannerIfVisible();
        await signUpPage.emailInput.waitForDisplayed({ timeout: 15000 });
         signUpPage.email = newUsers.invalidEmails.empty;
         signUpPage.firstName = newUsers.invalidFirstNames.empty;
         signUpPage.lastName = newUsers.invalidLastNames.empty;
-        signUpPage.password = newUsers.invalidPasswords.empty;
-       
+        signUpPage.password = newUsers.invalidPasswords.empty;       
         await signUpPage.fillForm();
         await signUpPage.clickSignUpButton();
         await expect(signUpPage.termsAndConditions).toHaveText('Please accept the terms and conditions');
     });
     
     it('should not sign up with empty email and empty password', async () => {
-        const signUpButton = await mainPage.signUp;
-        await signUpButton.waitForClickable({ timeout: 5000 });
-        await signUpButton.click();
-        await acceptCookieBannerIfVisible();
         await signPage.waitForHeader();
         await expect(signPage.createTelnyxAccount).toHaveText('Create a Telnyx account');
-      await acceptCookieBannerIfVisible();
-       await signUpPage.emailInput.waitForDisplayed({ timeout: 15000 });
+        await signUpPage.emailInput.waitForDisplayed({ timeout: 15000 });
         signUpPage.email = newUsers.invalidEmails.empty;
         signUpPage.firstName = newUsers.validUser.firstName;
         signUpPage.lastName = newUsers.validUser.lastName;

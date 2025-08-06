@@ -1,0 +1,539 @@
+1754475097976	geckodriver	INFO	Listening on 0.0.0.0:50226
+1754475098016	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--width=1920" "--height=1080" "--remote-de ... 0" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\allal\\AppData\\Local\\Temp\\rust_mozprofileqkhhOc"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1754475098645	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-width"
+console.error: "Warning: unrecognized command line flag" "-height"
+1754475098898	Marionette	INFO	Listening on port 50250
+WebDriver BiDi listening on ws://127.0.0.1:50258
+Read port: 50250
+1754475101824	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:51559
+1754475101923	Marionette	INFO	Stopped listening on port 50250
+Dynamically enable window occlusion 1
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+console.error: services.settings: 
+  main/nimbus-secure-experiments: Signature of bundled changeset is invalid: [Exception... "<no message>"  nsresult: "0x8046001e (<unknown>)"  location: "JS frame :: resource://gre/modules/ServiceRequest.sys.mjs :: open :: line 126"  data: no].
+console.error: services.settings: 
+  main/doh-config: Signature of bundled changeset is invalid: [Exception... "<no message>"  nsresult: "0x8046001e (<unknown>)"  location: "JS frame :: resource://gre/modules/ServiceRequest.sys.mjs :: open :: line 126"  data: no].
+console.error: services.settings: 
+  main/fingerprinting-protection-overrides: Signature of bundled changeset is invalid: [Exception... "<no message>"  nsresult: "0x8046001e (<unknown>)"  location: "JS frame :: resource://gre/modules/ServiceRequest.sys.mjs :: open :: line 126"  data: no].
+console.error: services.settings: 
+  main/partitioning-exempt-urls: Signature of bundled changeset is invalid: [Exception... "<no message>"  nsresult: "0x8046001e (<unknown>)"  location: "JS frame :: resource://gre/modules/ServiceRequest.sys.mjs :: open :: line 126"  data: no].
+console.error: services.settings: 
+  main/cfr: Signature of bundled changeset is invalid: [Exception... "<no message>"  nsresult: "0x8046001e (<unknown>)"  location: "JS frame :: resource://gre/modules/ServiceRequest.sys.mjs :: open :: line 126"  data: no].
+console.error: services.settings: 
+  main/newtab-wallpapers-v2: Signature of bundled changeset is invalid: [Exception... "<no message>"  nsresult: "0x8046001e (<unknown>)"  location: "JS frame :: resource://gre/modules/ServiceRequest.sys.mjs :: open :: line 126"  data: no].
+console.error: services.settings: 
+  main/normandy-recipes-capabilities: Signature of bundled changeset is invalid: [Exception... "<no message>"  nsresult: "0x8046001e (<unknown>)"  location: "JS frame :: resource://gre/modules/ServiceRequest.sys.mjs :: open :: line 126"  data: no].
+console.error: services.settings: 
+  main/remote-permissions: Signature of bundled changeset is invalid: [Exception... "<no message>"  nsresult: "0x8046001e (<unknown>)"  location: "JS frame :: resource://gre/modules/ServiceRequest.sys.mjs :: open :: line 126"  data: no].
+console.error: services.settings: 
+  main/search-categorization: Signature of bundled changeset is invalid: [Exception... "<no message>"  nsresult: "0x8046001e (<unknown>)"  location: "JS frame :: resource://gre/modules/ServiceRequest.sys.mjs :: open :: line 126"  data: no].
+console.error: services.settings: 
+  main/third-party-cookie-blocking-exempt-urls: Signature of bundled changeset is invalid: [Exception... "<no message>"  nsresult: "0x8046001e (<unknown>)"  location: "JS frame :: resource://gre/modules/ServiceRequest.sys.mjs :: open :: line 126"  data: no].
+console.error: services.settings: 
+  main/query-stripping: Signature of bundled changeset is invalid: [Exception... "<no message>"  nsresult: "0x8046001e (<unknown>)"  location: "JS frame :: resource://gre/modules/ServiceRequest.sys.mjs :: open :: line 126"  data: no].
+console.error: services.settings: 
+  main/doh-providers: Signature of bundled changeset is invalid: [Exception... "<no message>"  nsresult: "0x8046001e (<unknown>)"  location: "JS frame :: resource://gre/modules/ServiceRequest.sys.mjs :: open :: line 126"  data: no].
+console.error: services.settings: 
+  Message: Error: IndexedDB: main/nimbus-desktop-experiments list() IndexedDB:  execute() The application is shutting down
+  Stack:
+    IndexedDBError@resource://services-settings/IDBHelpers.sys.mjs:14:15
+ShutdownError@resource://services-settings/IDBHelpers.sys.mjs:24:5
+executeIDB@resource://services-settings/Database.sys.mjs:512:13
+list@resource://services-settings/Database.sys.mjs:48:13
+get@resource://services-settings/RemoteSettingsClient.sys.mjs:570:28
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:569:17
+
+console.error: services.settings: 
+  Message: Error: IndexedDB: main/tracking-protection-lists list() IndexedDB:  execute() The application is shutting down
+  Stack:
+    IndexedDBError@resource://services-settings/IDBHelpers.sys.mjs:14:15
+ShutdownError@resource://services-settings/IDBHelpers.sys.mjs:24:5
+executeIDB@resource://services-settings/Database.sys.mjs:512:13
+list@resource://services-settings/Database.sys.mjs:48:13
+get@resource://services-settings/RemoteSettingsClient.sys.mjs:570:28
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:569:17
+
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 126
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":32,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":31,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":31,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetchLatestChanges","sourceId":31,"lineNumber":429,"columnNumber":34,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"sync","sourceId":29,"lineNumber":657,"columnNumber":42,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"get/this._importingPromise<","sourceId":29,"lineNumber":499,"columnNumber":28,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://gre/modules/AsyncShutdown.sys.mjs","name":"observe","sourceId":22,"lineNumber":569,"columnNumber":17,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"observe@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"sync@resource://services-settings/RemoteSettingsClient.sys.mjs:657:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:657:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:657:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:657:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:657:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/<@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34|sync@resource://services-settings/RemoteSettingsClient.sys.mjs:657:42|get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28|observe@resource://gre/modules/AsyncShutdown.sys.mjs:569:17|
+  - prototype Object
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 126
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":32,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":31,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":31,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetchLatestChanges","sourceId":31,"lineNumber":429,"columnNumber":34,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"sync","sourceId":29,"lineNumber":657,"columnNumber":42,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"get/this._importingPromise<","sourceId":29,"lineNumber":499,"columnNumber":28,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://gre/modules/AsyncShutdown.sys.mjs","name":"observe","sourceId":22,"lineNumber":569,"columnNumber":17,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"observe@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"sync@resource://services-settings/RemoteSettingsClient.sys.mjs:657:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:657:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:657:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:657:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:657:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/<@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34|sync@resource://services-settings/RemoteSettingsClient.sys.mjs:657:42|get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28|observe@resource://gre/modules/AsyncShutdown.sys.mjs:569:17|
+  - prototype Object
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 126
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":32,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":31,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":31,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetchLatestChanges","sourceId":31,"lineNumber":429,"columnNumber":34,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"sync","sourceId":29,"lineNumber":657,"columnNumber":42,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"get/this._importingPromise<","sourceId":29,"lineNumber":499,"columnNumber":28,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://gre/modules/AsyncShutdown.sys.mjs","name":"observe","sourceId":22,"lineNumber":569,"columnNumber":17,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"observe@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"sync@resource://services-settings/RemoteSettingsClient.sys.mjs:657:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:657:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:657:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:657:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:657:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/<@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34|sync@resource://services-settings/RemoteSettingsClient.sys.mjs:657:42|get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28|observe@resource://gre/modules/AsyncShutdown.sys.mjs:569:17|
+  - prototype Object
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 126
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":32,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":31,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":31,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetchLatestChanges","sourceId":31,"lineNumber":429,"columnNumber":34,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"sync","sourceId":29,"lineNumber":657,"columnNumber":42,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"get/this._importingPromise<","sourceId":29,"lineNumber":499,"columnNumber":28,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://gre/modules/AsyncShutdown.sys.mjs","name":"observe","sourceId":22,"lineNumber":569,"columnNumber":17,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"observe@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"sync@resource://services-settings/RemoteSettingsClient.sys.mjs:657:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:657:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:657:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:657:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:657:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/<@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34|sync@resource://services-settings/RemoteSettingsClient.sys.mjs:657:42|get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28|observe@resource://gre/modules/AsyncShutdown.sys.mjs:569:17|
+  - prototype Object
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 126
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":32,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":31,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":31,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetchLatestChanges","sourceId":31,"lineNumber":429,"columnNumber":34,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"sync","sourceId":29,"lineNumber":657,"columnNumber":42,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"get/this._importingPromise<","sourceId":29,"lineNumber":499,"columnNumber":28,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://gre/modules/AsyncShutdown.sys.mjs","name":"observe","sourceId":22,"lineNumber":569,"columnNumber":17,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"observe@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"sync@resource://services-settings/RemoteSettingsClient.sys.mjs:657:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:657:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:657:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:657:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:657:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/<@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34|sync@resource://services-settings/RemoteSettingsClient.sys.mjs:657:42|get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28|observe@resource://gre/modules/AsyncShutdown.sys.mjs:569:17|
+  - prototype Object
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 126
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":32,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":31,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":31,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetchLatestChanges","sourceId":31,"lineNumber":429,"columnNumber":34,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"sync","sourceId":29,"lineNumber":657,"columnNumber":42,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"get/this._importingPromise<","sourceId":29,"lineNumber":499,"columnNumber":28,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://gre/modules/AsyncShutdown.sys.mjs","name":"observe","sourceId":22,"lineNumber":569,"columnNumber":17,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"observe@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"sync@resource://services-settings/RemoteSettingsClient.sys.mjs:657:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:657:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:657:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:657:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:657:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/<@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34|sync@resource://services-settings/RemoteSettingsClient.sys.mjs:657:42|get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28|observe@resource://gre/modules/AsyncShutdown.sys.mjs:569:17|
+  - prototype Object
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 126
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":32,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":31,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":31,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetchLatestChanges","sourceId":31,"lineNumber":429,"columnNumber":34,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"sync","sourceId":29,"lineNumber":657,"columnNumber":42,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"get/this._importingPromise<","sourceId":29,"lineNumber":499,"columnNumber":28,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://gre/modules/AsyncShutdown.sys.mjs","name":"observe","sourceId":22,"lineNumber":569,"columnNumber":17,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"observe@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"sync@resource://services-settings/RemoteSettingsClient.sys.mjs:657:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:657:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:657:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:657:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:657:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/<@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34|sync@resource://services-settings/RemoteSettingsClient.sys.mjs:657:42|get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28|observe@resource://gre/modules/AsyncShutdown.sys.mjs:569:17|
+  - prototype Object
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 126
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":32,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":31,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":31,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetchLatestChanges","sourceId":31,"lineNumber":429,"columnNumber":34,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"sync","sourceId":29,"lineNumber":657,"columnNumber":42,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"get/this._importingPromise<","sourceId":29,"lineNumber":499,"columnNumber":28,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://gre/modules/AsyncShutdown.sys.mjs","name":"observe","sourceId":22,"lineNumber":569,"columnNumber":17,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"observe@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"sync@resource://services-settings/RemoteSettingsClient.sys.mjs:657:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:657:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:657:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:657:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:657:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/<@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34|sync@resource://services-settings/RemoteSettingsClient.sys.mjs:657:42|get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28|observe@resource://gre/modules/AsyncShutdown.sys.mjs:569:17|
+  - prototype Object
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 126
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":32,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":31,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":31,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetchLatestChanges","sourceId":31,"lineNumber":429,"columnNumber":34,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"sync","sourceId":29,"lineNumber":657,"columnNumber":42,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"get/this._importingPromise<","sourceId":29,"lineNumber":499,"columnNumber":28,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://gre/modules/AsyncShutdown.sys.mjs","name":"observe","sourceId":22,"lineNumber":569,"columnNumber":17,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"observe@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"sync@resource://services-settings/RemoteSettingsClient.sys.mjs:657:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:657:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:657:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:657:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:657:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/<@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34|sync@resource://services-settings/RemoteSettingsClient.sys.mjs:657:42|get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28|observe@resource://gre/modules/AsyncShutdown.sys.mjs:569:17|
+  - prototype Object
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 126
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":32,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":31,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":31,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetchLatestChanges","sourceId":31,"lineNumber":429,"columnNumber":34,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"sync","sourceId":29,"lineNumber":657,"columnNumber":42,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"get/this._importingPromise<","sourceId":29,"lineNumber":499,"columnNumber":28,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://gre/modules/AsyncShutdown.sys.mjs","name":"observe","sourceId":22,"lineNumber":569,"columnNumber":17,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"observe@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"sync@resource://services-settings/RemoteSettingsClient.sys.mjs:657:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:657:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:657:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:657:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:657:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/<@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34|sync@resource://services-settings/RemoteSettingsClient.sys.mjs:657:42|get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28|observe@resource://gre/modules/AsyncShutdown.sys.mjs:569:17|
+  - prototype Object
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 126
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":32,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":31,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":31,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetchLatestChanges","sourceId":31,"lineNumber":429,"columnNumber":34,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"sync","sourceId":29,"lineNumber":657,"columnNumber":42,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"get/this._importingPromise<","sourceId":29,"lineNumber":499,"columnNumber":28,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://gre/modules/AsyncShutdown.sys.mjs","name":"observe","sourceId":22,"lineNumber":569,"columnNumber":17,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"observe@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"sync@resource://services-settings/RemoteSettingsClient.sys.mjs:657:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:657:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:657:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:657:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:657:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/<@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34|sync@resource://services-settings/RemoteSettingsClient.sys.mjs:657:42|get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:499:28|observe@resource://gre/modules/AsyncShutdown.sys.mjs:569:17|
+  - prototype Object
+console.error: services.settings: 
+  Message: Error: IndexedDB: main/mfcdm-origins-list list() IndexedDB:  execute() The application is shutting down
+  Stack:
+    IndexedDBError@resource://services-settings/IDBHelpers.sys.mjs:14:15
+ShutdownError@resource://services-settings/IDBHelpers.sys.mjs:24:5
+executeIDB@resource://services-settings/Database.sys.mjs:512:13
+list@resource://services-settings/Database.sys.mjs:48:13
+get@resource://services-settings/RemoteSettingsClient.sys.mjs:570:28
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:569:17
+
+console.error: services.settings: 
+  Message: Error: IndexedDB: main/mfcdm-origins-list list() IndexedDB:  execute() The application is shutting down
+  Stack:
+    IndexedDBError@resource://services-settings/IDBHelpers.sys.mjs:14:15
+ShutdownError@resource://services-settings/IDBHelpers.sys.mjs:24:5
+executeIDB@resource://services-settings/Database.sys.mjs:512:13
+list@resource://services-settings/Database.sys.mjs:48:13
+get@resource://services-settings/RemoteSettingsClient.sys.mjs:570:28
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:569:17
+
+console.error: services.settings: 
+  Message: Error: IndexedDB: main/mfcdm-origins-list list() IndexedDB:  execute() The application is shutting down
+  Stack:
+    IndexedDBError@resource://services-settings/IDBHelpers.sys.mjs:14:15
+ShutdownError@resource://services-settings/IDBHelpers.sys.mjs:24:5
+executeIDB@resource://services-settings/Database.sys.mjs:512:13
+list@resource://services-settings/Database.sys.mjs:48:13
+get@resource://services-settings/RemoteSettingsClient.sys.mjs:570:28
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:569:17
+
+console.error: services.settings: 
+  Message: Error: IndexedDB: main/mfcdm-origins-list list() IndexedDB:  execute() The application is shutting down
+  Stack:
+    IndexedDBError@resource://services-settings/IDBHelpers.sys.mjs:14:15
+ShutdownError@resource://services-settings/IDBHelpers.sys.mjs:24:5
+executeIDB@resource://services-settings/Database.sys.mjs:512:13
+list@resource://services-settings/Database.sys.mjs:48:13
+get@resource://services-settings/RemoteSettingsClient.sys.mjs:570:28
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:569:17
+
+console.error: services.settings: 
+  Message: Error: IndexedDB: main/nimbus-secure-experiments getLastModified() IndexedDB:  execute() The application is shutting down
+  Stack:
+    IndexedDBError@resource://services-settings/IDBHelpers.sys.mjs:14:15
+ShutdownError@resource://services-settings/IDBHelpers.sys.mjs:24:5
+executeIDB@resource://services-settings/Database.sys.mjs:512:13
+getLastModified@resource://services-settings/Database.sys.mjs:192:13
+get@resource://services-settings/RemoteSettingsClient.sys.mjs:460:59
+getRecipesFromCollection@resource://nimbus/lib/RemoteSettingsExperimentLoader.sys.mjs:519:30
+getRecipesFromAllCollections@resource://nimbus/lib/RemoteSettingsExperimentLoader.sys.mjs:470:42
+
+console.error: (new Error("Phase \"profile-change-teardown\" is finished, it is too late to register completion condition \"ProfilesDatastoreService uninit\"", "resource://gre/modules/AsyncShutdown.sys.mjs", 718))
+console.error: NimbusMigrations: 
+  applyMigrations: error running migration 2 (import-enrollments-to-sql): TypeError: can't access property "executeTransaction", conn is null
+JavaScript error: resource://services-settings/RemoteSettingsClient.sys.mjs, line 101: Error: Unknown callback
+1754475103282	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--width=1920" "--height=1080" "--remote-de ... 0" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\allal\\AppData\\Local\\Temp\\rust_mozprofilediEgCZ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1754475104267	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-width"
+console.error: "Warning: unrecognized command line flag" "-height"
+1754475104424	Marionette	INFO	Listening on port 51582
+WebDriver BiDi listening on ws://127.0.0.1:51584
+Read port: 51582
+1754475107128	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:51622
+JavaScript warning: https://cdn.sift.com/s.js, line 26: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: (new TypeError("WeakMap key undefined must be an object", "chrome://remote/content/shared/WindowManager.sys.mjs", 189))
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
+JavaScript error: chrome://remote/content/shared/Realm.sys.mjs, line 184: TypeError: argument is not a global object
+1754475113010	Marionette	INFO	Stopped listening on port 51582
+JavaScript error: chrome://remote/content/shared/NetworkDecodedBodySizeMap.sys.mjs, line 32: TypeError: can't access property "get", this[#channelIdToBodySizeMap] is null
+JavaScript error: chrome://remote/content/shared/NetworkDecodedBodySizeMap.sys.mjs, line 32: TypeError: can't access property "get", this[#channelIdToBodySizeMap] is null
+JavaScript error: chrome://remote/content/shared/NetworkDecodedBodySizeMap.sys.mjs, line 32: TypeError: can't access property "get", this[#channelIdToBodySizeMap] is null
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/shared/NetworkDecodedBodySizeMap.sys.mjs, line 32: TypeError: can't access property "get", this[#channelIdToBodySizeMap] is null
+NetworkHelper.parseSecurityInfo threw an exception: Security state 0 has no known STATE_IS_* flags.
+console.error: "Security state 0 has no known STATE_IS_* flags."
+JavaScript error: chrome://remote/content/shared/NetworkDecodedBodySizeMap.sys.mjs, line 32: TypeError: can't access property "get", this[#channelIdToBodySizeMap] is null
+JavaScript error: chrome://remote/content/shared/NetworkDecodedBodySizeMap.sys.mjs, line 83: TypeError: can't access property "delete", this[#authenticationAttemptsMap] is null
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
+JavaScript error: resource://services-settings/RemoteSettingsClient.sys.mjs, line 101: Error: Unknown callback
+1754475114510	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--width=1920" "--height=1080" "--remote-de ... 0" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\allal\\AppData\\Local\\Temp\\rust_mozprofileECOtoN"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1754475115103	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-width"
+console.error: "Warning: unrecognized command line flag" "-height"
+1754475115483	Marionette	INFO	Listening on port 51786
+WebDriver BiDi listening on ws://127.0.0.1:51787
+Read port: 51786
+1754475117916	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:51805
+console.error: (new TypeError("WeakMap key undefined must be an object", "chrome://remote/content/shared/WindowManager.sys.mjs", 189))
+JavaScript warning: https://cdn.sift.com/s.js, line 26: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
+1754475122816	Marionette	INFO	Stopped listening on port 51786
+JavaScript error: chrome://remote/content/shared/NetworkDecodedBodySizeMap.sys.mjs, line 32: TypeError: can't access property "get", this[#channelIdToBodySizeMap] is null
+JavaScript error: chrome://remote/content/shared/NetworkDecodedBodySizeMap.sys.mjs, line 32: TypeError: can't access property "get", this[#channelIdToBodySizeMap] is null
+JavaScript error: chrome://remote/content/shared/NetworkDecodedBodySizeMap.sys.mjs, line 32: TypeError: can't access property "get", this[#channelIdToBodySizeMap] is null
+console.error: (new NotFoundError("No such JSProcessActor 'WebDriverProcessData'", (void 0), 23))
+JavaScript error: chrome://remote/content/shared/NetworkDecodedBodySizeMap.sys.mjs, line 32: TypeError: can't access property "get", this[#channelIdToBodySizeMap] is null
+JavaScript error: chrome://remote/content/shared/NetworkDecodedBodySizeMap.sys.mjs, line 32: TypeError: can't access property "get", this[#channelIdToBodySizeMap] is null
+JavaScript error: chrome://remote/content/shared/NetworkDecodedBodySizeMap.sys.mjs, line 32: TypeError: can't access property "get", this[#channelIdToBodySizeMap] is null
+JavaScript error: chrome://remote/content/shared/NetworkDecodedBodySizeMap.sys.mjs, line 32: TypeError: can't access property "get", this[#channelIdToBodySizeMap] is null
+JavaScript error: chrome://remote/content/shared/NetworkDecodedBodySizeMap.sys.mjs, line 32: TypeError: can't access property "get", this[#channelIdToBodySizeMap] is null
+JavaScript error: chrome://remote/content/shared/NetworkDecodedBodySizeMap.sys.mjs, line 32: TypeError: can't access property "get", this[#channelIdToBodySizeMap] is null
+JavaScript error: chrome://remote/content/shared/NetworkDecodedBodySizeMap.sys.mjs, line 32: TypeError: can't access property "get", this[#channelIdToBodySizeMap] is null
+JavaScript error: chrome://remote/content/shared/NetworkDecodedBodySizeMap.sys.mjs, line 32: TypeError: can't access property "get", this[#channelIdToBodySizeMap] is null
+JavaScript error: chrome://remote/content/shared/NetworkDecodedBodySizeMap.sys.mjs, line 32: TypeError: can't access property "get", this[#channelIdToBodySizeMap] is null
+JavaScript error: chrome://remote/content/shared/NetworkDecodedBodySizeMap.sys.mjs, line 32: TypeError: can't access property "get", this[#channelIdToBodySizeMap] is null
+JavaScript error: chrome://remote/content/shared/NetworkDecodedBodySizeMap.sys.mjs, line 32: TypeError: can't access property "get", this[#channelIdToBodySizeMap] is null
+JavaScript error: chrome://remote/content/shared/NetworkDecodedBodySizeMap.sys.mjs, line 32: TypeError: can't access property "get", this[#channelIdToBodySizeMap] is null
+JavaScript error: chrome://remote/content/shared/NetworkDecodedBodySizeMap.sys.mjs, line 32: TypeError: can't access property "get", this[#channelIdToBodySizeMap] is null
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+Dynamically enable window occlusion 1
+JavaScript warning: data:application/x-javascript;charset=utf-8;base64,Oy8qRkJfUEtHX0RFTElNKi8KCl9fYW5ub3RhdG9yPWZ1bmN0aW9uKGEpe3JldHVybiBhfSxfX2Rfc3R1Yj1bXSxfX2Q9ZnVuY3Rpb24oYSxiLGMsZCl7X19kX3N0dWIucHVzaChbYSxiLGMsZF0pfSxfX3JsX3N0dWI9W10scmVxdWlyZUxhenk9ZnVuY3Rpb24oKXtfX3JsX3N0dWIucHVzaChhcmd1bWVudHMpfTsKLy8jIHNvdXJjZVVSTD1odHRwczovL3N0YXRpYy54eC5mYmNkbi5uZXQvcnNyYy5waHAvdjQveTIvci9jTWRfU1pvdjlFaS5qcwo=, line 3: Script terminated by timeout at:
+requireLazy@https://static.xx.fbcdn.net/rsrc.php/v4/y2/r/cMd_SZov9Ei.js:3:128
+@data:text/javascript;base64,cmVxdWlyZUxhenkoWyJTZXJ2ZXJKU1BheWxvYWRMaXN0ZW5lciJdLGZ1bmN0aW9uKG0pe20ucHJvY2VzcygpO30sbnVsbCwweDEwMCk=:1:12
+
+JavaScript error: chrome://remote/content/shared/NetworkDecodedBodySizeMap.sys.mjs, line 32: TypeError: can't access property "get", this[#channelIdToBodySizeMap] is null
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/shared/NetworkDecodedBodySizeMap.sys.mjs, line 83: TypeError: can't access property "delete", this[#authenticationAttemptsMap] is null
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
+console.error: (new NotFoundError("No such JSProcessActor 'WebDriverProcessData'", (void 0), 23))
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
+JavaScript error: resource://services-settings/RemoteSettingsClient.sys.mjs, line 101: Error: Unknown callback
+1754475125126	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--width=1920" "--height=1080" "--remote-de ... 0" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\allal\\AppData\\Local\\Temp\\rust_mozprofile8P6fln"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1754475125641	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-width"
+console.error: "Warning: unrecognized command line flag" "-height"
+1754475125852	Marionette	INFO	Listening on port 51973
+WebDriver BiDi listening on ws://127.0.0.1:51975
+Read port: 51973
+1754475128805	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:52011
+JavaScript warning: https://cdn.sift.com/s.js, line 26: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
+JavaScript error: chrome://remote/content/shared/Realm.sys.mjs, line 184: TypeError: argument is not a global object
+1754475132599	Marionette	INFO	Stopped listening on port 51973
+JavaScript error: chrome://remote/content/shared/NetworkDecodedBodySizeMap.sys.mjs, line 32: TypeError: can't access property "get", this[#channelIdToBodySizeMap] is null
+JavaScript error: chrome://remote/content/shared/NetworkDecodedBodySizeMap.sys.mjs, line 32: TypeError: can't access property "get", this[#channelIdToBodySizeMap] is null
+console.error: (new NotFoundError("No such JSProcessActor 'WebDriverProcessData'", (void 0), 23))
+JavaScript error: chrome://remote/content/shared/NetworkDecodedBodySizeMap.sys.mjs, line 32: TypeError: can't access property "get", this[#channelIdToBodySizeMap] is null
+JavaScript error: chrome://remote/content/shared/NetworkDecodedBodySizeMap.sys.mjs, line 32: TypeError: can't access property "get", this[#channelIdToBodySizeMap] is null
+JavaScript error: chrome://remote/content/shared/NetworkDecodedBodySizeMap.sys.mjs, line 32: TypeError: can't access property "get", this[#channelIdToBodySizeMap] is null
+JavaScript error: chrome://remote/content/shared/NetworkDecodedBodySizeMap.sys.mjs, line 32: TypeError: can't access property "get", this[#channelIdToBodySizeMap] is null
+JavaScript error: chrome://remote/content/shared/NetworkDecodedBodySizeMap.sys.mjs, line 32: TypeError: can't access property "get", this[#channelIdToBodySizeMap] is null
+JavaScript error: chrome://remote/content/shared/NetworkDecodedBodySizeMap.sys.mjs, line 32: TypeError: can't access property "get", this[#channelIdToBodySizeMap] is null
+JavaScript error: chrome://remote/content/shared/NetworkDecodedBodySizeMap.sys.mjs, line 32: TypeError: can't access property "get", this[#channelIdToBodySizeMap] is null
+JavaScript error: chrome://remote/content/shared/NetworkDecodedBodySizeMap.sys.mjs, line 32: TypeError: can't access property "get", this[#channelIdToBodySizeMap] is null
+JavaScript error: chrome://remote/content/shared/NetworkDecodedBodySizeMap.sys.mjs, line 32: TypeError: can't access property "get", this[#channelIdToBodySizeMap] is null
+JavaScript error: chrome://remote/content/shared/NetworkDecodedBodySizeMap.sys.mjs, line 32: TypeError: can't access property "get", this[#channelIdToBodySizeMap] is null
+JavaScript error: chrome://remote/content/shared/NetworkDecodedBodySizeMap.sys.mjs, line 32: TypeError: can't access property "get", this[#channelIdToBodySizeMap] is null
+JavaScript error: chrome://remote/content/shared/NetworkDecodedBodySizeMap.sys.mjs, line 32: TypeError: can't access property "get", this[#channelIdToBodySizeMap] is null
+JavaScript error: chrome://remote/content/shared/NetworkDecodedBodySizeMap.sys.mjs, line 32: TypeError: can't access property "get", this[#channelIdToBodySizeMap] is null
+JavaScript error: chrome://remote/content/shared/NetworkDecodedBodySizeMap.sys.mjs, line 32: TypeError: can't access property "get", this[#channelIdToBodySizeMap] is null
+JavaScript error: chrome://remote/content/shared/NetworkDecodedBodySizeMap.sys.mjs, line 32: TypeError: can't access property "get", this[#channelIdToBodySizeMap] is null
+JavaScript error: chrome://remote/content/shared/NetworkDecodedBodySizeMap.sys.mjs, line 32: TypeError: can't access property "get", this[#channelIdToBodySizeMap] is null
+JavaScript error: chrome://remote/content/shared/NetworkDecodedBodySizeMap.sys.mjs, line 32: TypeError: can't access property "get", this[#channelIdToBodySizeMap] is null
+JavaScript error: chrome://remote/content/shared/NetworkDecodedBodySizeMap.sys.mjs, line 32: TypeError: can't access property "get", this[#channelIdToBodySizeMap] is null
+JavaScript error: chrome://remote/content/shared/NetworkDecodedBodySizeMap.sys.mjs, line 32: TypeError: can't access property "get", this[#channelIdToBodySizeMap] is null
+JavaScript error: chrome://remote/content/shared/NetworkDecodedBodySizeMap.sys.mjs, line 32: TypeError: can't access property "get", this[#channelIdToBodySizeMap] is null
+JavaScript error: chrome://remote/content/shared/NetworkDecodedBodySizeMap.sys.mjs, line 32: TypeError: can't access property "get", this[#channelIdToBodySizeMap] is null
+JavaScript error: chrome://remote/content/shared/NetworkDecodedBodySizeMap.sys.mjs, line 32: TypeError: can't access property "get", this[#channelIdToBodySizeMap] is null
+JavaScript error: chrome://remote/content/shared/NetworkDecodedBodySizeMap.sys.mjs, line 32: TypeError: can't access property "get", this[#channelIdToBodySizeMap] is null
+JavaScript error: chrome://remote/content/shared/NetworkDecodedBodySizeMap.sys.mjs, line 32: TypeError: can't access property "get", this[#channelIdToBodySizeMap] is null
+JavaScript error: chrome://remote/content/shared/NetworkDecodedBodySizeMap.sys.mjs, line 32: TypeError: can't access property "get", this[#channelIdToBodySizeMap] is null
+JavaScript error: chrome://remote/content/shared/NetworkDecodedBodySizeMap.sys.mjs, line 32: TypeError: can't access property "get", this[#channelIdToBodySizeMap] is null
+JavaScript error: chrome://remote/content/shared/NetworkDecodedBodySizeMap.sys.mjs, line 32: TypeError: can't access property "get", this[#channelIdToBodySizeMap] is null
+JavaScript error: chrome://remote/content/shared/NetworkDecodedBodySizeMap.sys.mjs, line 32: TypeError: can't access property "get", this[#channelIdToBodySizeMap] is null
+JavaScript error: chrome://remote/content/shared/NetworkDecodedBodySizeMap.sys.mjs, line 32: TypeError: can't access property "get", this[#channelIdToBodySizeMap] is null
+JavaScript error: chrome://remote/content/shared/NetworkDecodedBodySizeMap.sys.mjs, line 32: TypeError: can't access property "get", this[#channelIdToBodySizeMap] is null
+JavaScript error: chrome://remote/content/shared/NetworkDecodedBodySizeMap.sys.mjs, line 32: TypeError: can't access property "get", this[#channelIdToBodySizeMap] is null
+JavaScript error: chrome://remote/content/shared/NetworkDecodedBodySizeMap.sys.mjs, line 32: TypeError: can't access property "get", this[#channelIdToBodySizeMap] is null
+JavaScript error: chrome://remote/content/shared/NetworkDecodedBodySizeMap.sys.mjs, line 32: TypeError: can't access property "get", this[#channelIdToBodySizeMap] is null
+JavaScript error: chrome://remote/content/shared/NetworkDecodedBodySizeMap.sys.mjs, line 32: TypeError: can't access property "get", this[#channelIdToBodySizeMap] is null
+JavaScript error: chrome://remote/content/shared/NetworkDecodedBodySizeMap.sys.mjs, line 32: TypeError: can't access property "get", this[#channelIdToBodySizeMap] is null
+JavaScript error: chrome://remote/content/shared/NetworkDecodedBodySizeMap.sys.mjs, line 32: TypeError: can't access property "get", this[#channelIdToBodySizeMap] is null
+JavaScript error: chrome://remote/content/shared/NetworkDecodedBodySizeMap.sys.mjs, line 32: TypeError: can't access property "get", this[#channelIdToBodySizeMap] is null
+JavaScript error: chrome://remote/content/shared/NetworkDecodedBodySizeMap.sys.mjs, line 32: TypeError: can't access property "get", this[#channelIdToBodySizeMap] is null
+JavaScript error: chrome://remote/content/shared/NetworkDecodedBodySizeMap.sys.mjs, line 32: TypeError: can't access property "get", this[#channelIdToBodySizeMap] is null
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+JavaScript error: chrome://remote/content/shared/messagehandler/transports/js-window-actors/MessageHandlerFrameParent.sys.mjs, line 119: TypeError: can't access property "moduleCache", messageHandler is undefined
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 103))
+console.error: (new NotFoundError("No such JSProcessActor 'WebDriverProcessData'", (void 0), 23))
+JavaScript error: resource://services-settings/RemoteSettingsClient.sys.mjs, line 101: Error: Unknown callback

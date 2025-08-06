@@ -33,6 +33,7 @@ import * as userData from '../data/user.json';
     await expect(userPage.welcomeText).toHaveText('Welcome, Dmytro!');
 
   });
+   
    it('should log in using valid credentials and change account to dark mode', async () => {
     await mainPage.clickAndNavigateToLogin();
     loginPage.email = userData.validUser.email;

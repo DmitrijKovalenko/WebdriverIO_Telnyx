@@ -30,7 +30,7 @@ export async function acceptCookieBannerIfVisible2() {
     }
 
   } catch (error) {
-    console.warn('⚠️ Cookie banner could not be interacted with:', error.message);
+    console.warn('⚠️ Cookie banner could not be interacted with:');
   }
 }
 
