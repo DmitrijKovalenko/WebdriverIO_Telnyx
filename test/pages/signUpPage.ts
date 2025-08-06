@@ -97,6 +97,19 @@ public set subscribeMarketing(value: boolean) {
   public get emailError() {
     return $('#email_message');
   }
+public get registrOREmailAndPasswordError() {
+    return $('.c-UUKrH.c-UUKrH-kDyeyw-type-error');
+  }
+
+  public get signUpWithGoogle() {
+    return $('//span[text()="Sign up with Google"]');
+  }
+
+  public async clickSignUpWithGoogle() {
+    await this.signUpWithGoogle.click();
+  }
+ 
+
   
 
   public async waitForHeader(): Promise<void> {

@@ -13,15 +13,14 @@ export async function acceptCookieBannerIfVisible2() {
   try {
     const cookieBannerAcceptBtn = await $('#accept-cookie-btn');
 
-    // Почекаємо трохи на появу DOM-елемента
-    await browser.pause(500); // можеш прибрати, якщо не треба
+     await browser.pause(500); 
 
     const isExisting = await cookieBannerAcceptBtn.isExisting();
     const isDisplayed = await cookieBannerAcceptBtn.isDisplayed();
 
     if (isExisting && isDisplayed) {
-      await cookieBannerAcceptBtn.waitForDisplayed({ timeout: 5000 }); // Перевірка видимості
-      await cookieBannerAcceptBtn.waitForClickable({ timeout: 5000 }); // Перевірка клікабельності
+      await cookieBannerAcceptBtn.waitForDisplayed({ timeout: 5000 }); 
+      await cookieBannerAcceptBtn.waitForClickable({ timeout: 5000 }); 
 
       await cookieBannerAcceptBtn.click();
       console.log('✅ Cookie banner was accepted.');
