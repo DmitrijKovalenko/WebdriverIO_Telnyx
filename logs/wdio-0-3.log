@@ -1,36 +1,36 @@
-2025-08-06T10:11:21.066Z INFO @wdio/local-runner: Run worker command: run
-2025-08-06T10:11:21.400Z INFO webdriver: Initiate new session using the WebDriver protocol
-2025-08-06T10:11:21.814Z INFO webdriver: Using Chromedriver v138.0.7204.184 from cache directory C:\Users\allal\AppData\Local\Temp
-2025-08-06T10:11:21.955Z INFO @wdio/utils: Started Chromedriver v138.0.7204.184 with params --port=50120 --allowed-origins=* --allowed-ips=0.0.0.0 in 154ms on port 50120
-2025-08-06T10:11:21.958Z INFO webdriver: [POST] http://localhost:50120/session
-2025-08-06T10:11:32.628Z INFO webdriver: Register BiDi handler for session with id aedaeee001d92815e6e293e0c066d1c9
-2025-08-06T10:11:32.629Z INFO webdriver: Connecting to webSocketUrl ws://127.0.0.1:50120/session/aedaeee001d92815e6e293e0c066d1c9
-2025-08-06T10:11:32.648Z INFO webdriver: Connected to Bidi protocol at ws://127.0.0.1:50120/session/aedaeee001d92815e6e293e0c066d1c9
-2025-08-06T10:11:32.648Z INFO webdriver: Connected to WebDriver Bidi interface at ws://127.0.0.1:50120/session/aedaeee001d92815e6e293e0c066d1c9
-2025-08-06T10:11:32.650Z INFO webdriver: BIDI COMMAND session.subscribe {"events":["browsingContext.contextCreated"]}
-2025-08-06T10:11:32.652Z INFO webdriver: BIDI COMMAND session.subscribe {"events":["log.entryAdded","browsingContext.navigationStarted"]}
-2025-08-06T10:11:32.652Z INFO webdriver: BIDI COMMAND script.addPreloadScript { functionDeclaration: <PreloadScript[1319 bytes]>, contexts: undefined }
-2025-08-06T10:11:32.652Z INFO webdriver: BIDI COMMAND session.subscribe {"events":["browsingContext.navigationStarted","browsingContext.fragmentNavigated","network.responseCompleted","network.beforeRequestSent","network.fetchError"]}
-2025-08-06T10:11:32.653Z INFO webdriver: BIDI COMMAND session.subscribe {"events":["browsingContext.userPromptOpened"]}
-2025-08-06T10:11:32.654Z INFO webdriver: BIDI COMMAND session.subscribe {"events":["browsingContext.navigationStarted"]}
-2025-08-06T10:11:32.655Z INFO webdriver: COMMAND getWindowHandle()
-2025-08-06T10:11:32.656Z INFO webdriver: BIDI COMMAND browsingContext.getTree {}
-2025-08-06T10:11:32.656Z INFO webdriver: [GET] http://localhost:50120/session/aedaeee001d92815e6e293e0c066d1c9/window
-2025-08-06T10:11:32.666Z INFO webdriver: RESULT 8A8AEB60DC4BBA4525D16638205F3879
-2025-08-06T10:11:32.672Z INFO webdriverio:PolyfillManager: Adding polyfill script to context with id 8A8AEB60DC4BBA4525D16638205F3879
-2025-08-06T10:11:32.672Z INFO webdriver: BIDI COMMAND script.callFunction {"functionDeclaration":"<Function[443 bytes] webdriverioPolyfill>","target":{"children":null,"clientWindow":"2007764990","context":"8A8AEB60DC4BBA4525D16638205F3879","originalOpener":null,"parent":null,"url":"about:blank","userContext":"default"},"awaitPromise":false}
-2025-08-06T10:11:32.673Z INFO webdriver: BIDI COMMAND script.addPreloadScript { functionDeclaration: <PreloadScript[443 bytes]>, contexts: ["8A8AEB60DC4BBA4525D16638205F3879"] }
-2025-08-06T10:11:32.674Z INFO webdriver: BIDI RESULT {"id":1,"result":{"subscription":"84cd45e7-0bd2-4171-a73a-99119e89c0ac"},"type":"success"}
-2025-08-06T10:11:32.675Z INFO webdriver: BIDI RESULT {"id":2,"result":{"subscription":"26dc9428-baf5-4dc7-b3c6-a10dedf046cd"},"type":"success"}
-2025-08-06T10:11:32.675Z INFO webdriver: BIDI RESULT {"id":4,"result":{"subscription":"21e6862b-954a-4f2d-9241-02da210c3311"},"type":"success"}
-2025-08-06T10:11:32.676Z INFO webdriver: BIDI RESULT {"id":5,"result":{"subscription":"a1bd5e61-aa5c-4342-b85f-f8f5fe3bd669"},"type":"success"}
-2025-08-06T10:11:32.676Z INFO webdriver: BIDI RESULT {"id":6,"result":{"subscription":"349f22bf-2986-4b6c-970e-7e8123ed1ed6"},"type":"success"}
-2025-08-06T10:11:32.677Z INFO webdriver: BIDI RESULT {"id":7,"result":{"contexts":[{"children":[],"clientWindow":"2007764990","context":"8A8AEB60DC4BBA4525D16638205F3879","originalOpener":null,"parent":null,"url":"about:blank","userContext":"default"}]},"type":"success"}
-2025-08-06T10:11:32.688Z INFO webdriver: BIDI RESULT {"id":3,"result":{"script":"4446d3a9-ca3e-45df-915f-370592fc7260"},"type":"success"}
-2025-08-06T10:11:32.691Z INFO webdriver: COMMAND deleteSession(<object>)
-2025-08-06T10:11:32.691Z INFO webdriver: [DELETE] http://localhost:50120/session/aedaeee001d92815e6e293e0c066d1c9
-2025-08-06T10:11:32.691Z INFO webdriver: DATA { deleteSessionOpts: { shutdownDriver: false } }
-2025-08-06T10:11:32.694Z INFO webdriver: BIDI RESULT {"id":8,"result":{"realm":"222774280482874572.6814266018220623432","result":{"type":"undefined"},"type":"success"},"type":"success"}
-2025-08-06T10:11:32.695Z INFO webdriver: BIDI RESULT {"id":9,"result":{"script":"121b6ac2-753e-4f5f-8ae4-54878e6b39e5"},"type":"success"}
-2025-08-06T10:11:32.756Z INFO webdriver: RESULT null
-2025-08-06T10:11:32.756Z INFO webdriver: Close Bidi connection to ws://127.0.0.1:50120/session/aedaeee001d92815e6e293e0c066d1c9
+2025-08-06T11:33:31.142Z INFO @wdio/local-runner: Run worker command: run
+2025-08-06T11:33:31.333Z INFO webdriver: Initiate new session using the WebDriver protocol
+2025-08-06T11:33:31.541Z INFO webdriver: Using Chromedriver v138.0.7204.184 from cache directory C:\Users\allal\AppData\Local\Temp
+2025-08-06T11:33:31.665Z INFO @wdio/utils: Started Chromedriver v138.0.7204.184 with params --port=61453 --allowed-origins=* --allowed-ips=0.0.0.0 in 133ms on port 61453
+2025-08-06T11:33:31.670Z INFO webdriver: [POST] http://localhost:61453/session
+2025-08-06T11:33:32.723Z INFO webdriver: Register BiDi handler for session with id 9302f97812f61d0de57746b4df18c524
+2025-08-06T11:33:32.723Z INFO webdriver: Connecting to webSocketUrl ws://127.0.0.1:61453/session/9302f97812f61d0de57746b4df18c524
+2025-08-06T11:33:32.734Z INFO webdriver: Connected to Bidi protocol at ws://127.0.0.1:61453/session/9302f97812f61d0de57746b4df18c524
+2025-08-06T11:33:32.734Z INFO webdriver: Connected to WebDriver Bidi interface at ws://127.0.0.1:61453/session/9302f97812f61d0de57746b4df18c524
+2025-08-06T11:33:32.735Z INFO webdriver: BIDI COMMAND session.subscribe {"events":["browsingContext.contextCreated"]}
+2025-08-06T11:33:32.736Z INFO webdriver: BIDI COMMAND session.subscribe {"events":["log.entryAdded","browsingContext.navigationStarted"]}
+2025-08-06T11:33:32.736Z INFO webdriver: BIDI COMMAND script.addPreloadScript { functionDeclaration: <PreloadScript[1319 bytes]>, contexts: undefined }
+2025-08-06T11:33:32.736Z INFO webdriver: BIDI COMMAND session.subscribe {"events":["browsingContext.navigationStarted","browsingContext.fragmentNavigated","network.responseCompleted","network.beforeRequestSent","network.fetchError"]}
+2025-08-06T11:33:32.737Z INFO webdriver: BIDI COMMAND session.subscribe {"events":["browsingContext.userPromptOpened"]}
+2025-08-06T11:33:32.737Z INFO webdriver: BIDI COMMAND session.subscribe {"events":["browsingContext.navigationStarted"]}
+2025-08-06T11:33:32.738Z INFO webdriver: COMMAND getWindowHandle()
+2025-08-06T11:33:32.738Z INFO webdriver: BIDI COMMAND browsingContext.getTree {}
+2025-08-06T11:33:32.738Z INFO webdriver: [GET] http://localhost:61453/session/9302f97812f61d0de57746b4df18c524/window
+2025-08-06T11:33:32.744Z INFO webdriver: RESULT 9D339F53EEDE0B0DECB7DADE7FBAFE08
+2025-08-06T11:33:32.748Z INFO webdriverio:PolyfillManager: Adding polyfill script to context with id 9D339F53EEDE0B0DECB7DADE7FBAFE08
+2025-08-06T11:33:32.748Z INFO webdriver: BIDI COMMAND script.callFunction {"functionDeclaration":"<Function[443 bytes] webdriverioPolyfill>","target":{"children":null,"clientWindow":"587648218","context":"9D339F53EEDE0B0DECB7DADE7FBAFE08","originalOpener":null,"parent":null,"url":"about:blank","userContext":"default"},"awaitPromise":false}
+2025-08-06T11:33:32.748Z INFO webdriver: BIDI COMMAND script.addPreloadScript { functionDeclaration: <PreloadScript[443 bytes]>, contexts: ["9D339F53EEDE0B0DECB7DADE7FBAFE08"] }
+2025-08-06T11:33:32.749Z INFO webdriver: BIDI RESULT {"id":1,"result":{"subscription":"324090e8-ce8f-4031-95de-14091eb428da"},"type":"success"}
+2025-08-06T11:33:32.750Z INFO webdriver: BIDI RESULT {"id":2,"result":{"subscription":"93f5879e-4416-439e-99e9-9389832dbcdd"},"type":"success"}
+2025-08-06T11:33:32.751Z INFO webdriver: BIDI RESULT {"id":4,"result":{"subscription":"620daac9-b321-45a9-a45d-14613300b43b"},"type":"success"}
+2025-08-06T11:33:32.752Z INFO webdriver: BIDI RESULT {"id":3,"result":{"script":"d021f964-6a1b-40e7-99a1-3d80d19862fb"},"type":"success"}
+2025-08-06T11:33:32.752Z INFO webdriver: BIDI RESULT {"id":5,"result":{"subscription":"4fae29f4-4e35-4903-962f-582071549937"},"type":"success"}
+2025-08-06T11:33:32.752Z INFO webdriver: BIDI RESULT {"id":6,"result":{"subscription":"41d52524-92f3-4f33-a011-a1fb9e6e51ba"},"type":"success"}
+2025-08-06T11:33:32.753Z INFO webdriver: BIDI RESULT {"id":7,"result":{"contexts":[{"children":[],"clientWindow":"587648218","context":"9D339F53EEDE0B0DECB7DADE7FBAFE08","originalOpener":null,"parent":null,"url":"about:blank","userContext":"default"}]},"type":"success"}
+2025-08-06T11:33:32.759Z INFO webdriver: BIDI RESULT {"id":8,"result":{"realm":"6918902669365400580.-4212444380115557832","result":{"type":"undefined"},"type":"success"},"type":"success"}
+2025-08-06T11:33:32.761Z INFO webdriver: COMMAND deleteSession(<object>)
+2025-08-06T11:33:32.762Z INFO webdriver: [DELETE] http://localhost:61453/session/9302f97812f61d0de57746b4df18c524
+2025-08-06T11:33:32.762Z INFO webdriver: DATA { deleteSessionOpts: { shutdownDriver: false } }
+2025-08-06T11:33:32.765Z INFO webdriver: BIDI RESULT {"id":9,"result":{"script":"3cb0370b-74b4-48ae-9214-0bfd98b737a8"},"type":"success"}
+2025-08-06T11:33:32.844Z INFO webdriver: RESULT null
+2025-08-06T11:33:32.845Z INFO webdriver: Close Bidi connection to ws://127.0.0.1:61453/session/9302f97812f61d0de57746b4df18c524

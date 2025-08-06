@@ -1,4 +1,3 @@
-import { mainPage } from '../pages/mainPage';
 import { signPage } from '../pages/signInPage';
 import { acceptCookieBannerIfVisible } from '../helpers/interactionUtils'; 
 import { acceptCookieBannerIfVisible2 } from '../helpers/interactionUtils'; 

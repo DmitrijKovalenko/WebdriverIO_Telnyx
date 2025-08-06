@@ -12,10 +12,10 @@ class MainPage{
   }
 
   public async clickAndNavigateToLogin() {
-        await this.logInButtonHref.waitForDisplayed({ timeout: 15000 });
+        await this.logInButtonHref.waitForDisplayed({ timeout: 25000 });
         await this.logInButtonHref.click();
         await browser.newWindow('https://portal.telnyx.com/#/login/sign-in');
-        await loginPage.loginButton.waitForDisplayed({ timeout: 15000 });
+        await loginPage.loginButton.waitForDisplayed({ timeout: 25000 });
   }
   
   public get linkedIn() {

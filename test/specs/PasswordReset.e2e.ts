@@ -27,22 +27,7 @@ describe('Reset Pasword tests', () => {
 }); 
     
     
-    // it('should successfully send a password reset email ', async () => {
-    // loginPage.email = userData.validUser.email;
-    // await passwordResetPage.fillResetEmailInput();
-    // await passwordResetPage.resetPasswordButtonClick();
-    // await expect(passwordResetPage.acceptedResetMsg).toContain('We have accepted your password reset request.');    
-
-    // });
-  
-  
-    // it('should NOT accept invalid email but does so (BUG)', async () => {
-    // loginPage.email = userData.invalidEmails.doubleAt.email;
-    // await passwordResetPage.fillResetEmailInput();
-    // await passwordResetPage.resetPasswordButtonClick();
-    // await expect(passwordResetPage.acceptedResetMsg).toContain('We have accepted your password reset request.');    
-
-    // });
+    
     
     it('should not accept an empty email on password reset form', async () => {
       loginPage.email = userData.invalidEmails.empty.email;
@@ -72,13 +57,39 @@ describe('Reset Pasword tests', () => {
     await browser.waitUntil(async () => {
     const url = await browser.getUrl();
     return url !== 'about:blank';}, {
-  timeout: 10000,
-  timeoutMsg: 'New tab in Firefox did not finish loading'
-});
+    timeout: 10000,
+    timeoutMsg: 'New tab in Firefox did not finish loading'
+    });
+       
     const newUrl = await browser.getUrl();
     await expect(newUrl).toContain('telnyx.com/sign-up');
     
-  });
+     });
+  
+  
+  
+  // it('should successfully send a password reset email ', async () => {
+  //   loginPage.email = userData.validUser.email;
+  //   await passwordResetPage.fillResetEmailInput();
+  //   await passwordResetPage.resetPasswordButtonClick();
+  //   await expect(passwordResetPage.acceptedResetMsg).toContain('We have accepted your password reset request.');    
+
+  //   });
+  
+  
+    // it('should NOT accept invalid email but does so (BUG)', async () => {
+    //   loginPage.email = userData.invalidEmails.doubleAt.email;
+    //   await browser.pause(2000);
+    //   await passwordResetPage.fillResetEmailInput();
+    //         await browser.pause(2000);
+
+    //   await passwordResetPage.resetPasswordButtonClick();
+    //         await browser.pause(2000);
+
+    // await expect(passwordResetPage.acceptedResetMsg).toContain('We have accepted your password reset request.');    
+
+    // });
+  
 //     it('should NOT accept email with one letter but does so (BUG)', async () => {
 //     loginPage.email = userData.invalidEmails.oneSymbol.email;
 //     await passwordResetPage.fillResetEmailInput();

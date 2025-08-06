@@ -44,7 +44,6 @@ public async enterPasswordInput(): Promise<void> {
 public async fillLoginForm(): Promise<void> {
   await this.emailInput.waitForDisplayed({ timeout: 5000 });
   await this.emailInput.setValue(this._email);
-
   await this.passwordInput.waitForDisplayed({ timeout: 5000 });
   await this.passwordInput.setValue(this._password);
 }
