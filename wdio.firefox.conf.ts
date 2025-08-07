@@ -7,7 +7,7 @@ export const config = {
     browserName: 'firefox',
     'moz:firefoxOptions': {
       args: [
-        '-headless',
+      //  '-headless',
      //   '--start-maximized'
       '--window-size=1920,1080',
       ],

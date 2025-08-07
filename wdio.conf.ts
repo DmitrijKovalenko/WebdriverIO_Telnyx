@@ -57,7 +57,7 @@ export const config: WebdriverIO.Config = {
     browserName: 'chrome',
     'goog:chromeOptions': {
       args: [
-        '--headless=new', 
+        //'--headless=new', 
         '--disable-gpu',
         '--no-sandbox',
         '--disable-dev-shm-usage',
@@ -87,7 +87,7 @@ export const config: WebdriverIO.Config = {
     browserName: 'firefox',
     'moz:firefoxOptions': {
       args: [
-        '-headless',
+       // '-headless',
        // '--start-maximized',
         '--window-size=1920,1080',
       ],

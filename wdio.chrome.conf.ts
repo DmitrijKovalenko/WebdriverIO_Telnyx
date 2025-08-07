@@ -9,7 +9,7 @@ export const config = {
     'goog:chromeOptions': {
       args: [
         //'--start-maximized',
-        '--headless=new',
+       // '--headless=new',
         '--window-size=1920,1080',
         '--disable-gpu',
         '--no-sandbox',

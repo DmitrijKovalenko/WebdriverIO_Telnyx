@@ -7,7 +7,6 @@ describe('Social tests', () => {
      await browser.url('https://telnyx.com/');
      await browser.maximizeWindow();
      await acceptCookieBannerIfVisible();
-    console.log(' Memory usage:', process.memoryUsage());
 
  });
     

@@ -11,7 +11,6 @@ describe('SignUp tests', () => {
    await browser.url('https://telnyx.com/sign-up');
      await browser.maximizeWindow();
      await acceptCookieBannerIfVisible2();
-    console.log(' Memory usage:', process.memoryUsage());   
      
  });
     afterEach(async () => {

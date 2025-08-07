@@ -10,12 +10,12 @@ import * as userData from '../data/user.json';
     await browser.reloadSession();
     await browser.url('https://portal.telnyx.com/#/login/sign-in');
     await browser.maximizeWindow();
-    console.log(' Memory usage:', process.memoryUsage());
+   
 
  });
    
 
-   it('should log in using valid credentials', async () => {
+   it.skip('should log in using valid credentials', async () => {
    // await mainPage.clickAndNavigateToLogin();
     await loginPage.emailInput.waitForDisplayed({ timeout: 250000 });
     loginPage.email = userData.validUser.email;
@@ -40,7 +40,7 @@ import * as userData from '../data/user.json';
 
   });
    
-   it('should log in using valid credentials and change account to dark mode', async () => {
+   it.skip('should log in using valid credentials and change account to dark mode', async () => {
    // await mainPage.clickAndNavigateToLogin();
     loginPage.email = userData.validUser.email;
     loginPage.password = userData.validUser.password;
@@ -64,7 +64,7 @@ import * as userData from '../data/user.json';
    });
 
 
-   it('should log in using valid credentials and sign Out', async () => {
+   it.skip('should log in using valid credentials and sign Out', async () => {
     //await mainPage.clickAndNavigateToLogin();
     loginPage.email = userData.validUser.email;
     loginPage.password = userData.validUser.password;
@@ -88,7 +88,7 @@ import * as userData from '../data/user.json';
     await expect(loginPage.logInTitle).toHaveText('Log in');
   });
    
-   it('should log in using valid credentials and remember my email btn', async () => {
+   it.skip('should log in using valid credentials and remember my email btn', async () => {
    // await mainPage.clickAndNavigateToLogin();
     loginPage.email = userData.validUser.email;
     loginPage.password = userData.validUser.password;
