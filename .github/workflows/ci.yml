@@ -7,7 +7,7 @@ on:
     branches: [ main ]
 
 permissions:
-  contents: write  
+  contents: write
 
 jobs:
   run-tests:
@@ -21,51 +21,14 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
 
-      - name: Install system dependencies for browsers
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y \
-            wget \
-            unzip \
-            libgtk-3-0 \
-            libdbus-glib-1-2 \
-            libnss3 \
-            libxss1 \
-            libasound2t64 \
-            libatk1.0-0 \
-            libatk-bridge2.0-0 \
-            libatspi2.0-0 \
-            libcups2 \
-            libdrm2 \
-            libgdk-pixbuf2.0-0 \
-            libgtk-3-0 \
-            libxkbcommon0 \
-            libxcomposite1 \
-            libxdamage1 \
-            libxfixes3 \
-            libxi6 \
-            libxrandr2 \
-            fonts-liberation \
-            ca-certificates \
-            mesa-utils \
-            xvfb \
-            google-chrome-stable
+      - name: Build Docker image for ${{ matrix.browser }}
+        run: docker build --build-arg BROWSER=${{ matrix.browser }} -t telnyx-tests-${{ matrix.browser }} .
 
-      - name: Install project dependencies
-        run: npm ci
-
-      - name: Run tests with ${{ matrix.browser }}
-        run: |
-          if [ "${{ matrix.browser }}" == "chrome" ]; then
-            npm run test:chrome
-          elif [ "${{ matrix.browser }}" == "firefox" ]; then
-            npm run test:firefox
-          fi
+      - name: Run tests in Docker for ${{ matrix.browser }}
+        run: docker run --rm telnyx-tests-${{ matrix.browser }}
 
       - name: Upload Allure results for ${{ matrix.browser }}
         uses: actions/upload-artifact@v4
