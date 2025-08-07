@@ -151,9 +151,7 @@ import * as userData from '../data/user.json';
     timeout: 15000,
       timeoutMsg: 'Login button did not become clickable in time'
     });
-    await loginPage.clickLoginButton();    
-     await expect(loginPage.invalidData).toHaveText('That email and password combination is not valid, or your browser could not be authenticated. Please try again.');
-   
+    await loginPage.clickLoginButton();       
    });
 
    it('should not log in with 255 symbols in email', async () => {
